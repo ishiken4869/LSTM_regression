@@ -1,0 +1,71 @@
+2023-01-05 13:38:26,904 INFO    MainThread:3926571 [wandb_setup.py:_flush():68] Configure stats pid to 3926571
+2023-01-05 13:38:26,904 INFO    MainThread:3926571 [wandb_setup.py:_flush():68] Loading settings from /home/ishii/.config/wandb/settings
+2023-01-05 13:38:26,904 INFO    MainThread:3926571 [wandb_setup.py:_flush():68] Loading settings from /home/ishii/graduation_research/LSTM_regression/wandb/settings
+2023-01-05 13:38:26,904 INFO    MainThread:3926571 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-01-05 13:38:26,904 INFO    MainThread:3926571 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-01-05 13:38:26,904 INFO    MainThread:3926571 [wandb_init.py:_log_setup():476] Logging user logs to /home/ishii/graduation_research/LSTM_regression/wandb/run-20230105_133826-p1ddwm0r/logs/debug.log
+2023-01-05 13:38:26,904 INFO    MainThread:3926571 [wandb_init.py:_log_setup():477] Logging internal logs to /home/ishii/graduation_research/LSTM_regression/wandb/run-20230105_133826-p1ddwm0r/logs/debug-internal.log
+2023-01-05 13:38:26,904 INFO    MainThread:3926571 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fed4c7130a0>
+2023-01-05 13:38:26,904 INFO    MainThread:3926571 [wandb_init.py:init():516] calling init triggers
+2023-01-05 13:38:26,904 INFO    MainThread:3926571 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'batch_size': 128, 'learning_rate': 0.001, 'architecture': 'LSTM', 'data_path': '/home/ishii/graduation_research/data/csvファイル/dft_B3LYP_6-31G*_zinc_for-sale_1000000_0to100000.csv', 'epochs': 300, 'lstm_size': 128, 'embedding_dim': 128, 'num_layers': 3, 'dropout': 0.2}
+2023-01-05 13:38:26,904 INFO    MainThread:3926571 [wandb_init.py:init():569] starting backend
+2023-01-05 13:38:26,904 INFO    MainThread:3926571 [wandb_init.py:init():573] setting up manager
+2023-01-05 13:38:26,905 INFO    MainThread:3926571 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-01-05 13:38:26,906 INFO    MainThread:3926571 [wandb_init.py:init():580] backend started and connected
+2023-01-05 13:38:26,914 INFO    MainThread:3926571 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2023-01-05 13:38:26,915 INFO    MainThread:3926571 [wandb_run.py:_label_probe_notebook():1123] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-01-05 13:38:26,915 INFO    MainThread:3926571 [wandb_init.py:init():658] updated telemetry
+2023-01-05 13:38:26,919 INFO    MainThread:3926571 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2023-01-05 13:38:27,445 INFO    MainThread:3926571 [wandb_run.py:_on_init():2000] communicating current version
+2023-01-05 13:38:27,568 INFO    MainThread:3926571 [wandb_run.py:_on_init():2004] got version response upgrade_message: "wandb version 0.13.7 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-01-05 13:38:27,569 INFO    MainThread:3926571 [wandb_init.py:init():728] starting run threads in backend
+2023-01-05 13:38:29,060 INFO    MainThread:3926571 [wandb_run.py:_console_start():1980] atexit reg
+2023-01-05 13:38:29,060 INFO    MainThread:3926571 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2023-01-05 13:38:29,061 INFO    MainThread:3926571 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2023-01-05 13:38:29,061 INFO    MainThread:3926571 [wandb_run.py:_redirect():1925] Redirects installed.
+2023-01-05 13:38:29,061 INFO    MainThread:3926571 [wandb_init.py:init():765] run started, returning control to user process
+2023-01-05 13:38:29,063 INFO    MainThread:3926571 [wandb_init.py:_pause_backend():389] pausing backend
+2023-01-05 13:38:29,063 INFO    MainThread:3926571 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-01-05 13:38:30,554 INFO    MainThread:3926571 [wandb_init.py:_resume_backend():398] resuming backend
+2023-01-05 13:38:30,558 INFO    MainThread:3926571 [wandb_init.py:_pause_backend():389] pausing backend
+2023-01-05 13:38:30,558 INFO    MainThread:3926571 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-01-05 13:38:33,578 INFO    MainThread:3926571 [wandb_init.py:_resume_backend():398] resuming backend
+2023-01-05 13:38:33,580 INFO    MainThread:3926571 [wandb_init.py:_pause_backend():389] pausing backend
+2023-01-05 13:38:33,580 INFO    MainThread:3926571 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-01-05 13:38:35,463 INFO    MainThread:3926571 [wandb_init.py:_resume_backend():398] resuming backend
+2023-01-05 13:38:37,183 INFO    MainThread:3926571 [wandb_init.py:_pause_backend():389] pausing backend
+2023-01-05 13:38:37,184 INFO    MainThread:3926571 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-01-05 13:38:38,487 INFO    MainThread:3926571 [wandb_init.py:_resume_backend():398] resuming backend
+2023-01-05 13:38:38,522 INFO    MainThread:3926571 [wandb_init.py:_pause_backend():389] pausing backend
+2023-01-05 13:38:38,522 INFO    MainThread:3926571 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-01-05 13:38:39,941 INFO    MainThread:3926571 [wandb_init.py:_resume_backend():398] resuming backend
+2023-01-05 13:56:22,316 INFO    MainThread:3926571 [wandb_init.py:_pause_backend():389] pausing backend
+2023-01-05 13:56:22,317 INFO    MainThread:3926571 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-01-05 13:57:50,007 INFO    MainThread:3926571 [wandb_init.py:_resume_backend():398] resuming backend
+2023-01-05 13:57:50,362 INFO    MainThread:3926571 [wandb_init.py:_pause_backend():389] pausing backend
+2023-01-05 13:57:50,362 INFO    MainThread:3926571 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-01-05 13:57:54,143 INFO    MainThread:3926571 [wandb_init.py:_resume_backend():398] resuming backend
+2023-01-05 13:57:54,145 INFO    MainThread:3926571 [wandb_init.py:_pause_backend():389] pausing backend
+2023-01-05 13:57:54,145 INFO    MainThread:3926571 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-01-05 13:57:57,154 INFO    MainThread:3926571 [wandb_init.py:_resume_backend():398] resuming backend
+2023-01-05 13:58:13,414 INFO    MainThread:3926571 [wandb_init.py:_pause_backend():389] pausing backend
+2023-01-05 13:58:13,415 INFO    MainThread:3926571 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-01-05 13:58:33,309 INFO    MainThread:3926571 [wandb_init.py:_resume_backend():398] resuming backend
+2023-01-05 13:58:33,568 INFO    MainThread:3926571 [wandb_init.py:_pause_backend():389] pausing backend
+2023-01-05 13:58:33,568 INFO    MainThread:3926571 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-01-05 13:58:37,839 INFO    MainThread:3926571 [wandb_init.py:_resume_backend():398] resuming backend
+2023-01-05 13:58:38,095 INFO    MainThread:3926571 [wandb_init.py:_pause_backend():389] pausing backend
+2023-01-05 13:58:38,095 INFO    MainThread:3926571 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-01-05 13:58:40,770 INFO    MainThread:3926571 [wandb_init.py:_resume_backend():398] resuming backend
+2023-01-05 13:58:40,771 INFO    MainThread:3926571 [wandb_run.py:_finish():1746] finishing run asidaka/LSTMによるDecomposition_Energyの予測/p1ddwm0r
+2023-01-05 13:58:40,772 INFO    MainThread:3926571 [jupyter.py:save_history():448] not saving jupyter history
+2023-01-05 13:58:40,772 INFO    MainThread:3926571 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-01-05 13:58:40,772 INFO    MainThread:3926571 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2023-01-05 13:58:40,773 INFO    MainThread:3926571 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2023-01-05 13:58:40,773 INFO    MainThread:3926571 [wandb_run.py:_restore():1932] restore
+2023-01-05 13:58:40,773 INFO    MainThread:3926571 [wandb_run.py:_restore():1938] restore done
+2023-01-05 13:58:46,682 INFO    MainThread:3926571 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2023-01-05 13:58:46,682 INFO    MainThread:3926571 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2023-01-05 13:58:46,686 INFO    MainThread:3926571 [wandb_run.py:_footer_sync_info():3333] logging synced files

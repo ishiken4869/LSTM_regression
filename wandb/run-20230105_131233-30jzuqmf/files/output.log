@@ -1,0 +1,35 @@
+No such comm: 865fe111164948948eecf4e0808d84c4
+No such comm: 3a35992d9d1f4737bff5bff137b43c51
+No such comm: bb5c79a588be461a93052c6a030be8e1
+No such comm: 6480436d55274845a2193f4a3caa6274
+No such comm: ad69f15c7b0d4d16b5e2d7405116997b
+No such comm: 2d12eedf727345a5ba3869b542aa10e4
+No such comm: 1de30425427841da8a9899d9db824209
+No such comm: 89526a46e44e438b9cffdd8f63aa3055
+No such comm: ef60c39884554924b4f7abf8eef25618
+No such comm: a12cb9cb40104f96a3c635bf14112693
+No such comm: 5adb0733de6b43c797149ab20d06d286
+No such comm: 25aa1658e790488f9e8b2350d2cf9a98
+No such comm: 93024cd880334a65b72cbae59b31374d
+No such comm: 68df0fe3aae545c9a28a0949f486b10e
+No such comm: 44e0465bc8e74ec3b452f00eec997a37
+No such comm: 1541027a3ff840418f8714d70dfe7a7d
+device: cuda:0
+device: cuda:0
+70102
+17526
+410
+137
+Epoch: 1, train_Loss: 1.8386427318177572, val_Loss: 1.7404164780665488
+Epoch: 2, train_Loss: 1.791577277532438, val_Loss: 1.7201583859694265
+Epoch: 3, train_Loss: 1.7914630304022534, val_Loss: 1.7178256015707976
+Epoch: 4, train_Loss: 1.7916984027478753, val_Loss: 1.7182718454486263
+Epoch: 5, train_Loss: 1.7921285360324672, val_Loss: 1.7200530893611212
+Epoch: 6, train_Loss: 1.7928236100731827, val_Loss: 1.7222317213559672
+Epoch: 7, train_Loss: 1.7935415266490564, val_Loss: 1.7230113022518854
+Epoch: 8, train_Loss: 1.7945002688140403, val_Loss: 1.7221713984099618
+Epoch: 9, train_Loss: 1.7952780034483933, val_Loss: 1.7211475907451046
+Epoch: 10, train_Loss: 1.7958006111586966, val_Loss: 1.7206527486334753
+Epoch: 11, train_Loss: 1.7959926580510488, val_Loss: 1.7204539845459652
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
