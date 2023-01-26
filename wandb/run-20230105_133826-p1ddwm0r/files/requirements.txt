@@ -140,7 +140,7 @@ threadpoolctl==2.2.0
 tinycss2==1.2.1
 toml==0.10.2
 tomli==2.0.1
-torch==1.12.1.post201
+torch==1.13.1
 torchaudio==0.12.1
 torchinfo==1.7.1
 torchvision==0.2.2
