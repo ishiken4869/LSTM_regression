@@ -5505,3 +5505,9 @@
 2023-01-26 23:41:13,448 DEBUG   SenderThread:609521 [sender.py:send_request():317] send_request: stop_status
 2023-01-26 23:41:28,677 DEBUG   HandlerThread:609521 [handler.py:handle_request():139] handle_request: stop_status
 2023-01-26 23:41:28,677 DEBUG   SenderThread:609521 [sender.py:send_request():317] send_request: stop_status
+2023-01-26 23:41:43,908 DEBUG   HandlerThread:609521 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-26 23:41:43,909 DEBUG   SenderThread:609521 [sender.py:send_request():317] send_request: stop_status
+2023-01-26 23:41:59,139 DEBUG   HandlerThread:609521 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-26 23:41:59,139 DEBUG   SenderThread:609521 [sender.py:send_request():317] send_request: stop_status
+2023-01-26 23:42:01,157 INFO    MainThread:609521 [internal.py:handle_exit():78] Internal process exited
+2023-01-26 23:42:01,158 INFO    MainThread:609521 [internal.py:handle_exit():78] Internal process exited
