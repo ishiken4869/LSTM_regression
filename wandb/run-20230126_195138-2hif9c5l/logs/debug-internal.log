@@ -1,0 +1,426 @@
+2023-01-26 19:51:44,682 INFO    StreamThr :579219 [internal.py:wandb_internal():88] W&B internal server running at pid: 579219, started at: 2023-01-26 19:51:44.680909
+2023-01-26 19:51:44,683 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: status
+2023-01-26 19:51:44,684 DEBUG   SenderThread:579219 [sender.py:send_request():317] send_request: status
+2023-01-26 19:51:44,686 INFO    WriterThread:579219 [datastore.py:open_for_write():75] open: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/run-2hif9c5l.wandb
+2023-01-26 19:51:44,686 DEBUG   SenderThread:579219 [sender.py:send():303] send: header
+2023-01-26 19:51:44,686 DEBUG   SenderThread:579219 [sender.py:send():303] send: run
+2023-01-26 19:51:45,159 INFO    SenderThread:579219 [dir_watcher.py:__init__():216] watching files in: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files
+2023-01-26 19:51:45,159 INFO    SenderThread:579219 [sender.py:_start_run_threads():928] run started: 2hif9c5l with start time 1674730303.685169
+2023-01-26 19:51:45,161 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:51:45,161 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:51:45,162 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: check_version
+2023-01-26 19:51:45,162 DEBUG   SenderThread:579219 [sender.py:send_request():317] send_request: check_version
+2023-01-26 19:51:45,286 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: run_start
+2023-01-26 19:51:45,288 DEBUG   HandlerThread:579219 [system_info.py:__init__():31] System info init
+2023-01-26 19:51:45,288 DEBUG   HandlerThread:579219 [system_info.py:__init__():46] System info init done
+2023-01-26 19:51:45,288 INFO    HandlerThread:579219 [system_monitor.py:start():150] Starting system monitor
+2023-01-26 19:51:45,289 INFO    SystemMonitor:579219 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-01-26 19:51:45,289 INFO    HandlerThread:579219 [system_monitor.py:probe():168] Collecting system info
+2023-01-26 19:51:45,289 INFO    SystemMonitor:579219 [interfaces.py:start():168] Started cpu
+2023-01-26 19:51:45,290 INFO    SystemMonitor:579219 [interfaces.py:start():168] Started disk
+2023-01-26 19:51:45,290 INFO    SystemMonitor:579219 [interfaces.py:start():168] Started gpu
+2023-01-26 19:51:45,291 INFO    SystemMonitor:579219 [interfaces.py:start():168] Started memory
+2023-01-26 19:51:45,294 INFO    SystemMonitor:579219 [interfaces.py:start():168] Started network
+2023-01-26 19:51:45,370 DEBUG   HandlerThread:579219 [system_info.py:probe():195] Probing system
+2023-01-26 19:51:45,371 DEBUG   HandlerThread:579219 [system_info.py:_probe_git():180] Probing git
+2023-01-26 19:51:45,378 DEBUG   HandlerThread:579219 [system_info.py:_probe_git():188] Probing git done
+2023-01-26 19:51:45,378 DEBUG   HandlerThread:579219 [system_info.py:probe():241] Probing system done
+2023-01-26 19:51:45,378 DEBUG   HandlerThread:579219 [system_monitor.py:probe():177] {'os': 'Linux-5.15.0-56-generic-x86_64-with-glibc2.35', 'python': '3.10.6', 'heartbeatAt': '2023-01-26T10:51:45.370647', 'startedAt': '2023-01-26T10:51:38.680995', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/ishiken4869/LSTM_regression.git', 'commit': 'e34d70e820306bb2d3953207e0aabf7179675eac'}, 'email': 'ishiken4869@gmail.com', 'root': '/home/ishii/graduation_research/LSTM_regression', 'host': 'shrike', 'username': 'ishii', 'executable': '/home/ishii/mambaforge/envs/pytorch/bin/python', 'cpu_count': 128, 'cpu_count_logical': 256, 'cpu_freq': {'current': 1923.6948164062499, 'min': 1500.0, 'max': 2000.0}, 'cpu_freq_per_core': [{'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.946, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.633, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.825, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.949, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.894, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3100.006, 'min': 1500.0, 'max': 2000.0}, {'current': 3100.007, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.35, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.79, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.988, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.75, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.847, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.696, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.42, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.475, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.88, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.874, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.933, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.935, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.908, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.985, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3100.007, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.815, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.871, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.94, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.887, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.984, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.494, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.923, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.994, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.994, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.957, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.518, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.936, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.573, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.353, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.792, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.572, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3100.012, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.951, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.504, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3100.006, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3100.009, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3100.011, 'min': 1500.0, 'max': 2000.0}, {'current': 3100.009, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.828, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3100.014, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3100.011, 'min': 1500.0, 'max': 2000.0}, {'current': 3100.007, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.562, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.15, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3098.265, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.711, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3100.006, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.793, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.576, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.774, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.79, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3100.009, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3099.359, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}], 'disk': {'total': 1720.1097412109375, 'used': 65.34330368041992}, 'gpu': 'NVIDIA GeForce RTX 3090', 'gpu_count': 4, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25447170048}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25447170048}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25447170048}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25447170048}], 'memory': {'total': 1007.6937370300293}}
+2023-01-26 19:51:45,379 INFO    HandlerThread:579219 [system_monitor.py:probe():178] Finished collecting system info
+2023-01-26 19:51:45,379 INFO    HandlerThread:579219 [system_monitor.py:probe():181] Publishing system info
+2023-01-26 19:51:45,379 DEBUG   HandlerThread:579219 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-01-26 19:51:45,380 DEBUG   HandlerThread:579219 [system_info.py:_save_pip():67] Saving pip packages done
+2023-01-26 19:51:45,380 DEBUG   HandlerThread:579219 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-01-26 19:51:46,161 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_created():275] file/dir created: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:51:46,161 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_created():275] file/dir created: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/conda-environment.yaml
+2023-01-26 19:51:46,161 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_created():275] file/dir created: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/requirements.txt
+2023-01-26 19:51:47,160 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/conda-environment.yaml
+2023-01-26 19:51:47,199 DEBUG   HandlerThread:579219 [system_info.py:_save_conda():86] Saving conda packages done
+2023-01-26 19:51:47,203 INFO    HandlerThread:579219 [system_monitor.py:probe():183] Finished publishing system info
+2023-01-26 19:51:47,204 DEBUG   SenderThread:579219 [sender.py:send():303] send: files
+2023-01-26 19:51:47,205 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-01-26 19:51:47,216 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-26 19:51:47,217 DEBUG   SenderThread:579219 [sender.py:send_request():317] send_request: stop_status
+2023-01-26 19:51:47,426 DEBUG   SenderThread:579219 [sender.py:send():303] send: telemetry
+2023-01-26 19:51:47,831 INFO    Thread-34 :579219 [upload_job.py:push():143] Uploaded file /tmp/tmpgeyoekxkwandb/2obqobg2-wandb-metadata.json
+2023-01-26 19:51:48,161 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_created():275] file/dir created: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:51:48,161 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_created():275] file/dir created: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-metadata.json
+2023-01-26 19:51:50,161 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:52:02,429 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-26 19:52:02,430 DEBUG   SenderThread:579219 [sender.py:send_request():317] send_request: stop_status
+2023-01-26 19:52:16,172 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/config.yaml
+2023-01-26 19:52:17,652 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-26 19:52:17,653 DEBUG   SenderThread:579219 [sender.py:send_request():317] send_request: stop_status
+2023-01-26 19:52:32,179 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:52:32,864 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-26 19:52:32,864 DEBUG   SenderThread:579219 [sender.py:send_request():317] send_request: stop_status
+2023-01-26 19:52:38,181 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:52:42,183 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:52:45,294 DEBUG   SystemMonitor:579219 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-01-26 19:52:45,299 DEBUG   SenderThread:579219 [sender.py:send():303] send: stats
+2023-01-26 19:52:48,081 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-26 19:52:48,082 DEBUG   SenderThread:579219 [sender.py:send_request():317] send_request: stop_status
+2023-01-26 19:52:55,632 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:52:55,633 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:52:55,634 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:52:55,634 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:52:56,189 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:52:58,190 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:52:59,389 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:52:59,389 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:52:59,390 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:52:59,390 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:53:00,191 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:53:02,192 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:53:03,297 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-26 19:53:03,298 DEBUG   SenderThread:579219 [sender.py:send_request():317] send_request: stop_status
+2023-01-26 19:53:03,364 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:53:03,535 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:53:03,535 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:53:03,536 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:53:04,193 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:53:06,194 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:53:07,215 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:53:07,218 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:53:07,219 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:53:07,220 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:53:08,195 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:53:10,196 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:53:11,068 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:53:11,070 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:53:11,070 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:53:11,071 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:53:11,196 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:53:14,198 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:53:15,025 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:53:15,027 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:53:15,027 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:53:15,028 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:53:15,198 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:53:15,302 DEBUG   SenderThread:579219 [sender.py:send():303] send: stats
+2023-01-26 19:53:18,199 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:53:18,538 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-26 19:53:18,539 DEBUG   SenderThread:579219 [sender.py:send_request():317] send_request: stop_status
+2023-01-26 19:53:18,812 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:53:18,814 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:53:18,816 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:53:18,817 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:53:19,200 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:53:20,200 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:53:22,489 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:53:22,490 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:53:22,491 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:53:22,491 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:53:23,201 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:53:24,202 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:53:26,292 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:53:26,293 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:53:26,294 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:53:26,294 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:53:27,203 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:53:28,203 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:53:30,237 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:53:30,237 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:53:30,238 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:53:30,238 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:53:31,204 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:53:32,205 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:53:33,761 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-26 19:53:33,761 DEBUG   SenderThread:579219 [sender.py:send_request():317] send_request: stop_status
+2023-01-26 19:53:34,041 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:53:34,045 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:53:34,046 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:53:34,047 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:53:34,206 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:53:36,207 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:53:37,791 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:53:37,791 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:53:37,792 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:53:37,794 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:53:38,207 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:53:40,208 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:53:41,512 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:53:41,515 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:53:41,516 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:53:41,516 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:53:42,209 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:53:44,210 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:53:45,146 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:53:45,147 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:53:45,148 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:53:45,148 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:53:45,211 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:53:45,306 DEBUG   SenderThread:579219 [sender.py:send():303] send: stats
+2023-01-26 19:53:48,212 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:53:48,775 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:53:48,776 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:53:48,777 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:53:48,779 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:53:48,975 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-26 19:53:48,975 DEBUG   SenderThread:579219 [sender.py:send_request():317] send_request: stop_status
+2023-01-26 19:53:49,212 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:53:50,213 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:53:52,383 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:53:52,384 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:53:52,385 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:53:52,386 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:53:53,215 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:53:54,215 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:53:56,096 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:53:56,100 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:53:56,101 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:53:56,101 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:53:56,216 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:53:58,217 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:53:59,879 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:53:59,880 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:53:59,880 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:53:59,883 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:54:00,218 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:54:02,219 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:54:03,709 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:54:03,710 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:54:03,711 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:54:03,712 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:54:04,219 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:54:04,721 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-26 19:54:04,722 DEBUG   SenderThread:579219 [sender.py:send_request():317] send_request: stop_status
+2023-01-26 19:54:06,220 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:54:07,341 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:54:07,342 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:54:07,342 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:54:07,343 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:54:08,221 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:54:10,222 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:54:11,062 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:54:11,063 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:54:11,065 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:54:11,067 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:54:11,222 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:54:14,224 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:54:14,743 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:54:14,744 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:54:14,745 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:54:14,745 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:54:15,224 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:54:15,309 DEBUG   SenderThread:579219 [sender.py:send():303] send: stats
+2023-01-26 19:54:16,224 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:54:18,452 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:54:18,452 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:54:18,453 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:54:18,454 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:54:19,226 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:54:19,926 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-26 19:54:19,926 DEBUG   SenderThread:579219 [sender.py:send_request():317] send_request: stop_status
+2023-01-26 19:54:20,226 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:54:22,186 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:54:22,188 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:54:22,189 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:54:22,193 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:54:22,227 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:54:24,228 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:54:25,988 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:54:25,989 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:54:25,991 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:54:25,991 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:54:26,229 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:54:28,230 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:54:29,670 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:54:29,670 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:54:29,671 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:54:29,671 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:54:30,231 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:54:32,232 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:54:33,437 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:54:33,438 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:54:33,438 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:54:33,441 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:54:34,233 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:54:35,136 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-26 19:54:35,137 DEBUG   SenderThread:579219 [sender.py:send_request():317] send_request: stop_status
+2023-01-26 19:54:36,234 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:54:37,232 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:54:37,234 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:54:37,235 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:54:37,236 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:54:37,237 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:54:40,239 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:54:41,447 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:54:41,449 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:54:41,449 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:54:41,450 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:54:42,240 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:54:44,241 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:54:45,311 DEBUG   SenderThread:579219 [sender.py:send():303] send: stats
+2023-01-26 19:54:45,472 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:54:45,473 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:54:45,473 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:54:45,473 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:54:46,242 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:54:48,243 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:54:49,405 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:54:49,406 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:54:49,406 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:54:49,406 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:54:50,243 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:54:50,375 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-26 19:54:50,375 DEBUG   SenderThread:579219 [sender.py:send_request():317] send_request: stop_status
+2023-01-26 19:54:52,244 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:54:53,536 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:54:53,538 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:54:53,539 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:54:53,542 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:54:54,245 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:54:56,246 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:54:57,652 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:54:57,654 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:54:57,654 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:54:57,655 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:54:58,247 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:55:00,248 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:55:01,563 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:55:01,564 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:55:01,565 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:55:01,565 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:55:02,248 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:55:04,249 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:55:05,584 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-26 19:55:05,584 DEBUG   SenderThread:579219 [sender.py:send_request():317] send_request: stop_status
+2023-01-26 19:55:05,629 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:55:05,798 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:55:05,799 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:55:05,801 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:55:06,250 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:55:08,251 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:55:09,753 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:55:09,753 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:55:09,754 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:55:09,755 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:55:10,252 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:55:12,253 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:55:13,484 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:55:13,485 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:55:13,485 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:55:13,486 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:55:14,254 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:55:15,315 DEBUG   SenderThread:579219 [sender.py:send():303] send: stats
+2023-01-26 19:55:16,254 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:55:17,137 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:55:17,139 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:55:17,140 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:55:17,142 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:55:17,255 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:55:20,256 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:55:20,803 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-26 19:55:20,803 DEBUG   SenderThread:579219 [sender.py:send_request():317] send_request: stop_status
+2023-01-26 19:55:20,864 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:55:21,009 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:55:21,011 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:55:21,012 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:55:21,256 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:55:24,258 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:55:24,692 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-26 19:55:24,700 DEBUG   SenderThread:579219 [sender.py:send():303] send: history
+2023-01-26 19:55:24,701 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:55:24,702 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:55:25,259 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:55:26,259 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:55:36,014 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-26 19:55:36,015 DEBUG   SenderThread:579219 [sender.py:send_request():317] send_request: stop_status
+2023-01-26 19:55:45,317 DEBUG   SenderThread:579219 [sender.py:send():303] send: stats
+2023-01-26 19:55:47,664 DEBUG   SenderThread:579219 [sender.py:send():303] send: telemetry
+2023-01-26 19:55:47,665 DEBUG   SenderThread:579219 [sender.py:send():303] send: exit
+2023-01-26 19:55:47,665 INFO    SenderThread:579219 [sender.py:send_exit():442] handling exit code: 0
+2023-01-26 19:55:47,665 INFO    SenderThread:579219 [sender.py:send_exit():444] handling runtime: 242
+2023-01-26 19:55:47,668 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:55:47,669 INFO    SenderThread:579219 [sender.py:send_exit():450] send defer
+2023-01-26 19:55:47,670 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: defer
+2023-01-26 19:55:47,670 INFO    HandlerThread:579219 [handler.py:handle_request_defer():162] handle defer: 0
+2023-01-26 19:55:47,670 DEBUG   SenderThread:579219 [sender.py:send_request():317] send_request: defer
+2023-01-26 19:55:47,670 INFO    SenderThread:579219 [sender.py:send_request_defer():459] handle sender defer: 0
+2023-01-26 19:55:47,670 INFO    SenderThread:579219 [sender.py:transition_state():463] send defer: 1
+2023-01-26 19:55:47,671 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: defer
+2023-01-26 19:55:47,671 INFO    HandlerThread:579219 [handler.py:handle_request_defer():162] handle defer: 1
+2023-01-26 19:55:47,671 INFO    HandlerThread:579219 [system_monitor.py:finish():160] Stopping system monitor
+2023-01-26 19:55:47,673 DEBUG   SystemMonitor:579219 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-01-26 19:55:47,673 DEBUG   SystemMonitor:579219 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-01-26 19:55:47,677 INFO    HandlerThread:579219 [interfaces.py:finish():173] Joined cpu
+2023-01-26 19:55:47,677 INFO    HandlerThread:579219 [interfaces.py:finish():173] Joined disk
+2023-01-26 19:55:48,268 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:55:48,913 INFO    HandlerThread:579219 [interfaces.py:finish():173] Joined gpu
+2023-01-26 19:55:48,913 INFO    HandlerThread:579219 [interfaces.py:finish():173] Joined memory
+2023-01-26 19:55:48,913 INFO    HandlerThread:579219 [interfaces.py:finish():173] Joined network
+2023-01-26 19:55:48,914 DEBUG   SenderThread:579219 [sender.py:send_request():317] send_request: defer
+2023-01-26 19:55:48,915 INFO    SenderThread:579219 [sender.py:send_request_defer():459] handle sender defer: 1
+2023-01-26 19:55:48,915 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: poll_exit
+2023-01-26 19:55:48,916 INFO    SenderThread:579219 [sender.py:transition_state():463] send defer: 2
+2023-01-26 19:55:48,917 DEBUG   SenderThread:579219 [sender.py:send():303] send: stats
+2023-01-26 19:55:48,918 DEBUG   SenderThread:579219 [sender.py:send_request():317] send_request: poll_exit
+2023-01-26 19:55:48,919 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: defer
+2023-01-26 19:55:48,920 INFO    HandlerThread:579219 [handler.py:handle_request_defer():162] handle defer: 2
+2023-01-26 19:55:48,921 DEBUG   SenderThread:579219 [sender.py:send_request():317] send_request: defer
+2023-01-26 19:55:48,921 INFO    SenderThread:579219 [sender.py:send_request_defer():459] handle sender defer: 2
+2023-01-26 19:55:48,921 INFO    SenderThread:579219 [sender.py:transition_state():463] send defer: 3
+2023-01-26 19:55:48,922 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: defer
+2023-01-26 19:55:48,922 INFO    HandlerThread:579219 [handler.py:handle_request_defer():162] handle defer: 3
+2023-01-26 19:55:48,922 DEBUG   SenderThread:579219 [sender.py:send_request():317] send_request: defer
+2023-01-26 19:55:48,922 INFO    SenderThread:579219 [sender.py:send_request_defer():459] handle sender defer: 3
+2023-01-26 19:55:48,922 INFO    SenderThread:579219 [sender.py:transition_state():463] send defer: 4
+2023-01-26 19:55:48,923 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: defer
+2023-01-26 19:55:48,923 INFO    HandlerThread:579219 [handler.py:handle_request_defer():162] handle defer: 4
+2023-01-26 19:55:48,923 DEBUG   SenderThread:579219 [sender.py:send():303] send: summary
+2023-01-26 19:55:48,924 INFO    SenderThread:579219 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-26 19:55:48,924 DEBUG   SenderThread:579219 [sender.py:send_request():317] send_request: defer
+2023-01-26 19:55:48,924 INFO    SenderThread:579219 [sender.py:send_request_defer():459] handle sender defer: 4
+2023-01-26 19:55:48,924 INFO    SenderThread:579219 [sender.py:transition_state():463] send defer: 5
+2023-01-26 19:55:48,925 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: defer
+2023-01-26 19:55:48,925 INFO    HandlerThread:579219 [handler.py:handle_request_defer():162] handle defer: 5
+2023-01-26 19:55:48,925 DEBUG   SenderThread:579219 [sender.py:send_request():317] send_request: defer
+2023-01-26 19:55:48,925 INFO    SenderThread:579219 [sender.py:send_request_defer():459] handle sender defer: 5
+2023-01-26 19:55:49,149 ERROR   SenderThread:579219 [internal_api.py:execute():213] 409 response executing GraphQL.
+2023-01-26 19:55:49,149 ERROR   SenderThread:579219 [internal_api.py:execute():214] {"errors":[{"message":"run asidaka/LSTMによるHOMOLUMOの予測/2hif9c5l was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-01-26 19:55:49,269 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/wandb-summary.json
+2023-01-26 19:55:49,667 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: poll_exit
+2023-01-26 19:55:50,269 INFO    Thread-31 :579219 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/files/output.log
+2023-01-26 19:55:50,595 ERROR   SenderThread:579219 [internal_api.py:execute():213] 409 response executing GraphQL.
+2023-01-26 19:55:50,595 ERROR   SenderThread:579219 [internal_api.py:execute():214] {"errors":[{"message":"run asidaka/LSTMによるHOMOLUMOの予測/2hif9c5l was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-01-26 19:55:52,957 ERROR   SenderThread:579219 [internal_api.py:execute():213] 409 response executing GraphQL.
+2023-01-26 19:55:52,957 ERROR   SenderThread:579219 [internal_api.py:execute():214] {"errors":[{"message":"run asidaka/LSTMによるHOMOLUMOの予測/2hif9c5l was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-01-26 19:55:52,958 ERROR   SenderThread:579219 [retry.py:__call__():154] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/ishii/mambaforge/envs/pytorch/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 113, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/ishii/mambaforge/envs/pytorch/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 210, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/ishii/mambaforge/envs/pytorch/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/ishii/mambaforge/envs/pytorch/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/ishii/mambaforge/envs/pytorch/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 39, in execute
+    request.raise_for_status()
+  File "/home/ishii/mambaforge/envs/pytorch/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+2023-01-26 19:55:54,673 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: keepalive
+2023-01-26 19:55:57,500 ERROR   SenderThread:579219 [internal_api.py:execute():213] 409 response executing GraphQL.
+2023-01-26 19:55:57,501 ERROR   SenderThread:579219 [internal_api.py:execute():214] {"errors":[{"message":"run asidaka/LSTMによるHOMOLUMOの予測/2hif9c5l was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-01-26 19:55:59,674 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: keepalive
+2023-01-26 19:56:04,677 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: keepalive
+2023-01-26 19:56:06,457 ERROR   SenderThread:579219 [internal_api.py:execute():213] 409 response executing GraphQL.
+2023-01-26 19:56:06,458 ERROR   SenderThread:579219 [internal_api.py:execute():214] {"errors":[{"message":"run asidaka/LSTMによるHOMOLUMOの予測/2hif9c5l was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-01-26 19:56:09,678 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: keepalive
+2023-01-26 19:56:14,680 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: keepalive
+2023-01-26 19:56:19,682 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: keepalive
+2023-01-26 19:56:24,684 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: keepalive
+2023-01-26 19:56:25,379 ERROR   SenderThread:579219 [internal_api.py:execute():213] 409 response executing GraphQL.
+2023-01-26 19:56:25,379 ERROR   SenderThread:579219 [internal_api.py:execute():214] {"errors":[{"message":"run asidaka/LSTMによるHOMOLUMOの予測/2hif9c5l was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-01-26 19:56:29,686 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: keepalive
+2023-01-26 19:56:34,688 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: keepalive
+2023-01-26 19:56:39,690 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: keepalive
+2023-01-26 19:56:44,692 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: keepalive
+2023-01-26 19:56:49,694 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: keepalive
+2023-01-26 19:56:54,696 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: keepalive
+2023-01-26 19:56:59,698 DEBUG   HandlerThread:579219 [handler.py:handle_request():139] handle_request: keepalive
+2023-01-26 19:57:00,685 ERROR   SenderThread:579219 [internal_api.py:execute():213] 409 response executing GraphQL.
+2023-01-26 19:57:00,685 ERROR   SenderThread:579219 [internal_api.py:execute():214] {"errors":[{"message":"run asidaka/LSTMによるHOMOLUMOの予測/2hif9c5l was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-01-26 19:57:05,943 INFO    WriterThread:579219 [datastore.py:close():279] close: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230126_195138-2hif9c5l/run-2hif9c5l.wandb

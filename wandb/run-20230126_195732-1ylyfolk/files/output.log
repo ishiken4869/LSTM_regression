@@ -1,0 +1,622 @@
+No such comm: 4b7c9b0da88e463b88fff50aa488f80d
+No such comm: bba38a39dce64d21b5d4d036140e9337
+No such comm: 8652bf29d38c4b9f836909e60b6ac76c
+No such comm: dcfcbe03a7f34182a25a87037092c493
+No such comm: 2f6e6334bf9749eea1a1aeffd8b43208
+No such comm: 1c053971eda04805af142846d61330f7
+No such comm: 5fbdce71b17a47f6aebec59f27d0233e
+No such comm: 490241d9657741cbb726f06fedb31ee2
+No such comm: b92e958f257442139d396063d9067de5
+No such comm: e20a14c211004ba6bb0514ef2f2d3145
+No such comm: c25d501506e64922b7053fb22f92bdf0
+No such comm: 698953c06a3f407398b2f17a42aec60f
+No such comm: 6d81e12486b943498bc3c8265988ef73
+No such comm: d2d1be008e28464487cf97156c4a92be
+No such comm: fb5436acc55e45d883ce17b36013aac9
+No such comm: e182646eb7634cb1bba306f21a36f9c5
+device: cuda:0
+70102
+17526
+410
+137
+Epoch: 1, train_Loss: 0.945053599593116, val_Loss: 0.49292174895314406
+Validation loss decreased (inf --> 0.492922).  Saving model ...
+Epoch: 2, train_Loss: 0.5665646358961012, val_Loss: 0.4927692835348366
+Validation loss decreased (0.492922 --> 0.492769).  Saving model ...
+Epoch: 3, train_Loss: 0.5669972845693914, val_Loss: 0.4925989693533765
+Validation loss decreased (0.492769 --> 0.492599).  Saving model ...
+Epoch: 4, train_Loss: 0.5668981841424616, val_Loss: 0.4924940951984294
+Validation loss decreased (0.492599 --> 0.492494).  Saving model ...
+Epoch: 5, train_Loss: 0.5669010879789911, val_Loss: 0.4925064949223595
+EarlyStopping counter: 1 out of 30
+Epoch: 6, train_Loss: 0.5669167319448983, val_Loss: 0.4924469322618777
+Validation loss decreased (0.492494 --> 0.492447).  Saving model ...
+Epoch: 7, train_Loss: 0.5670107726643725, val_Loss: 0.492398322063641
+Validation loss decreased (0.492447 --> 0.492398).  Saving model ...
+Epoch: 8, train_Loss: 0.5670110605111937, val_Loss: 0.4923418653707435
+Validation loss decreased (0.492398 --> 0.492342).  Saving model ...
+Epoch: 9, train_Loss: 0.5670024449505457, val_Loss: 0.49231622123370206
+Validation loss decreased (0.492342 --> 0.492316).  Saving model ...
+Epoch: 10, train_Loss: 0.5670228645568941, val_Loss: 0.4923207920833226
+EarlyStopping counter: 1 out of 30
+Epoch: 11, train_Loss: 0.5670197041296378, val_Loss: 0.4923382266594546
+EarlyStopping counter: 2 out of 30
+Epoch: 12, train_Loss: 0.566973768501747, val_Loss: 0.4922847214841495
+Validation loss decreased (0.492316 --> 0.492285).  Saving model ...
+Epoch: 13, train_Loss: 0.5669325067502696, val_Loss: 0.49229689083830286
+EarlyStopping counter: 1 out of 30
+Epoch: 14, train_Loss: 0.5669369777528251, val_Loss: 0.4922844069282504
+Validation loss decreased (0.492285 --> 0.492284).  Saving model ...
+Epoch: 15, train_Loss: 0.5669204807136117, val_Loss: 0.4922733111103086
+Validation loss decreased (0.492284 --> 0.492273).  Saving model ...
+Epoch: 16, train_Loss: 0.5669134451121819, val_Loss: 0.4922449503936907
+Validation loss decreased (0.492273 --> 0.492245).  Saving model ...
+Epoch: 17, train_Loss: 0.5668551979995355, val_Loss: 0.4922172357566165
+Validation loss decreased (0.492245 --> 0.492217).  Saving model ...
+Epoch: 18, train_Loss: 0.5668491450024814, val_Loss: 0.49221791620672184
+EarlyStopping counter: 1 out of 30
+Epoch: 19, train_Loss: 0.566848252313893, val_Loss: 0.4922240485240073
+EarlyStopping counter: 2 out of 30
+Epoch: 20, train_Loss: 0.5668497804461456, val_Loss: 0.49221037317366495
+Validation loss decreased (0.492217 --> 0.492210).  Saving model ...
+Epoch: 21, train_Loss: 0.5668494790792465, val_Loss: 0.49220901575401754
+Validation loss decreased (0.492210 --> 0.492209).  Saving model ...
+Epoch: 22, train_Loss: 0.5668490220860737, val_Loss: 0.49221043038542256
+EarlyStopping counter: 1 out of 30
+Epoch: 23, train_Loss: 0.566849322362644, val_Loss: 0.4922052354273135
+Validation loss decreased (0.492209 --> 0.492205).  Saving model ...
+Epoch: 24, train_Loss: 0.5668486234618396, val_Loss: 0.4922019645680476
+Validation loss decreased (0.492205 --> 0.492202).  Saving model ...
+Epoch: 25, train_Loss: 0.5668528371467823, val_Loss: 0.49220597918016196
+EarlyStopping counter: 1 out of 30
+Epoch: 26, train_Loss: 0.5668513572070657, val_Loss: 0.49220357019535815
+EarlyStopping counter: 2 out of 30
+Epoch: 27, train_Loss: 0.566849140641166, val_Loss: 0.49219868740026096
+Validation loss decreased (0.492202 --> 0.492199).  Saving model ...
+Epoch: 28, train_Loss: 0.5668500583346298, val_Loss: 0.4922001105155388
+EarlyStopping counter: 1 out of 30
+Epoch: 29, train_Loss: 0.566849264211771, val_Loss: 0.4921989393060225
+EarlyStopping counter: 2 out of 30
+Epoch: 30, train_Loss: 0.5668499502466946, val_Loss: 0.4921979506085389
+Validation loss decreased (0.492199 --> 0.492198).  Saving model ...
+Epoch: 31, train_Loss: 0.5668486116135992, val_Loss: 0.49219850706358026
+EarlyStopping counter: 1 out of 30
+Epoch: 32, train_Loss: 0.5668491812740885, val_Loss: 0.49219776570361895
+Validation loss decreased (0.492198 --> 0.492198).  Saving model ...
+Epoch: 33, train_Loss: 0.5668496490978613, val_Loss: 0.4921971470335104
+Validation loss decreased (0.492198 --> 0.492197).  Saving model ...
+Epoch: 34, train_Loss: 0.5668491779304132, val_Loss: 0.4921971470335104
+Validation loss decreased (0.492197 --> 0.492197).  Saving model ...
+Epoch: 35, train_Loss: 0.5668487398362742, val_Loss: 0.4921974541932127
+EarlyStopping counter: 1 out of 30
+Epoch: 36, train_Loss: 0.5668492793309979, val_Loss: 0.49219708677626006
+Validation loss decreased (0.492197 --> 0.492197).  Saving model ...
+Epoch: 37, train_Loss: 0.5668489487432852, val_Loss: 0.4921967143559978
+Validation loss decreased (0.492197 --> 0.492197).  Saving model ...
+Epoch: 38, train_Loss: 0.5668492239422914, val_Loss: 0.4921965892732578
+Validation loss decreased (0.492197 --> 0.492197).  Saving model ...
+Epoch: 39, train_Loss: 0.5668489771645243, val_Loss: 0.4921964685412219
+Validation loss decreased (0.492197 --> 0.492196).  Saving model ...
+Epoch: 40, train_Loss: 0.5668490336435598, val_Loss: 0.4921965892732578
+EarlyStopping counter: 1 out of 30
+Epoch: 41, train_Loss: 0.5668489327517952, val_Loss: 0.4921961605113788
+Validation loss decreased (0.492196 --> 0.492196).  Saving model ...
+Epoch: 42, train_Loss: 0.5668489230115239, val_Loss: 0.4921962220738404
+EarlyStopping counter: 1 out of 30
+Epoch: 43, train_Loss: 0.5668491021162126, val_Loss: 0.4921960943806781
+Validation loss decreased (0.492196 --> 0.492196).  Saving model ...
+Epoch: 44, train_Loss: 0.5668489139981386, val_Loss: 0.49219603521110367
+Validation loss decreased (0.492196 --> 0.492196).  Saving model ...
+Epoch: 45, train_Loss: 0.5668489168329937, val_Loss: 0.4921960943806781
+EarlyStopping counter: 1 out of 30
+Epoch: 46, train_Loss: 0.5668489329698609, val_Loss: 0.49219603521110367
+Validation loss decreased (0.492196 --> 0.492196).  Saving model ...
+Epoch: 47, train_Loss: 0.5668488610081557, val_Loss: 0.4921959109985045
+Validation loss decreased (0.492196 --> 0.492196).  Saving model ...
+Epoch: 48, train_Loss: 0.5668489865413526, val_Loss: 0.4921959109985045
+Validation loss decreased (0.492196 --> 0.492196).  Saving model ...
+Epoch: 49, train_Loss: 0.566848961754543, val_Loss: 0.4921959109985045
+Validation loss decreased (0.492196 --> 0.492196).  Saving model ...
+Epoch: 50, train_Loss: 0.5668489131985641, val_Loss: 0.49219585269907096
+Validation loss decreased (0.492196 --> 0.492196).  Saving model ...
+Epoch: 51, train_Loss: 0.5668489150157789, val_Loss: 0.4921959109985045
+EarlyStopping counter: 1 out of 30
+Epoch: 52, train_Loss: 0.5668489101456433, val_Loss: 0.4921959721258957
+EarlyStopping counter: 2 out of 30
+Epoch: 53, train_Loss: 0.5668489181413883, val_Loss: 0.4921957880911166
+Validation loss decreased (0.492196 --> 0.492196).  Saving model ...
+Epoch: 54, train_Loss: 0.5668489153792219, val_Loss: 0.4921959721258957
+EarlyStopping counter: 1 out of 30
+Epoch: 55, train_Loss: 0.5668489070200339, val_Loss: 0.4921959109985045
+EarlyStopping counter: 2 out of 30
+Epoch: 56, train_Loss: 0.5668489078922969, val_Loss: 0.4921959109985045
+EarlyStopping counter: 3 out of 30
+Epoch: 57, train_Loss: 0.5668488969163197, val_Loss: 0.4921959721258957
+EarlyStopping counter: 4 out of 30
+Epoch: 58, train_Loss: 0.5668488930638244, val_Loss: 0.4921959109985045
+EarlyStopping counter: 5 out of 30
+Epoch: 59, train_Loss: 0.566848904330556, val_Loss: 0.49219585269907096
+EarlyStopping counter: 6 out of 30
+Epoch: 60, train_Loss: 0.5668488990969774, val_Loss: 0.49219585269907096
+EarlyStopping counter: 7 out of 30
+Epoch: 61, train_Loss: 0.5668489112359721, val_Loss: 0.4921959109985045
+EarlyStopping counter: 8 out of 30
+Epoch: 62, train_Loss: 0.5668489005507492, val_Loss: 0.4921959109985045
+EarlyStopping counter: 9 out of 30
+Epoch: 63, train_Loss: 0.5668489098548889, val_Loss: 0.4921959721258957
+EarlyStopping counter: 10 out of 30
+Epoch: 64, train_Loss: 0.5668489069473452, val_Loss: 0.4921959721258957
+EarlyStopping counter: 11 out of 30
+Epoch: 65, train_Loss: 0.566848884777325, val_Loss: 0.49219585269907096
+EarlyStopping counter: 12 out of 30
+Epoch: 66, train_Loss: 0.5668489089099372, val_Loss: 0.4921959109985045
+EarlyStopping counter: 13 out of 30
+Epoch: 67, train_Loss: 0.5668489057116393, val_Loss: 0.4921959109985045
+EarlyStopping counter: 14 out of 30
+Epoch: 68, train_Loss: 0.5668489093460688, val_Loss: 0.4921957880911166
+Validation loss decreased (0.492196 --> 0.492196).  Saving model ...
+Epoch: 69, train_Loss: 0.566848899896552, val_Loss: 0.4921959109985045
+EarlyStopping counter: 1 out of 30
+Epoch: 70, train_Loss: 0.5668488876848686, val_Loss: 0.4921959109985045
+EarlyStopping counter: 2 out of 30
+Epoch: 71, train_Loss: 0.5668488948810392, val_Loss: 0.49219585269907096
+EarlyStopping counter: 3 out of 30
+Epoch: 72, train_Loss: 0.566848892046184, val_Loss: 0.49219585269907096
+EarlyStopping counter: 4 out of 30
+Epoch: 73, train_Loss: 0.5668489001146177, val_Loss: 0.49219585269907096
+EarlyStopping counter: 5 out of 30
+Epoch: 74, train_Loss: 0.5668489113086608, val_Loss: 0.4921959109985045
+EarlyStopping counter: 6 out of 30
+Epoch: 75, train_Loss: 0.5668488889205746, val_Loss: 0.49219585269907096
+EarlyStopping counter: 7 out of 30
+Epoch: 76, train_Loss: 0.5668488905924123, val_Loss: 0.4921959109985045
+EarlyStopping counter: 8 out of 30
+Epoch: 77, train_Loss: 0.5668489057116393, val_Loss: 0.4921959721258957
+EarlyStopping counter: 9 out of 30
+Epoch: 78, train_Loss: 0.5668489102183318, val_Loss: 0.49219585269907096
+EarlyStopping counter: 10 out of 30
+Epoch: 79, train_Loss: 0.5668489017137667, val_Loss: 0.4921959109985045
+EarlyStopping counter: 11 out of 30
+Epoch: 80, train_Loss: 0.5668489092733802, val_Loss: 0.49219585269907096
+EarlyStopping counter: 12 out of 30
+Epoch: 81, train_Loss: 0.5668489112359721, val_Loss: 0.4921959721258957
+EarlyStopping counter: 13 out of 30
+Epoch: 82, train_Loss: 0.5668489158153533, val_Loss: 0.4921959721258957
+EarlyStopping counter: 14 out of 30
+Epoch: 83, train_Loss: 0.5668489009141922, val_Loss: 0.4921959721258957
+EarlyStopping counter: 15 out of 30
+Epoch: 84, train_Loss: 0.5668488905924123, val_Loss: 0.4921959109985045
+EarlyStopping counter: 16 out of 30
+Epoch: 85, train_Loss: 0.5668488927003814, val_Loss: 0.4921957880911166
+Validation loss decreased (0.492196 --> 0.492196).  Saving model ...
+Epoch: 86, train_Loss: 0.5668488993150432, val_Loss: 0.4921957880911166
+Validation loss decreased (0.492196 --> 0.492196).  Saving model ...
+Epoch: 87, train_Loss: 0.5668488973524513, val_Loss: 0.49219585269907096
+EarlyStopping counter: 1 out of 30
+Epoch: 88, train_Loss: 0.5668488884844431, val_Loss: 0.49219585269907096
+EarlyStopping counter: 2 out of 30
+Epoch: 89, train_Loss: 0.5668488880483116, val_Loss: 0.49219585269907096
+EarlyStopping counter: 3 out of 30
+Epoch: 90, train_Loss: 0.5668489067292795, val_Loss: 0.49219585269907096
+EarlyStopping counter: 4 out of 30
+Epoch: 91, train_Loss: 0.5668488950991049, val_Loss: 0.4921957880911166
+Validation loss decreased (0.492196 --> 0.492196).  Saving model ...
+Epoch: 92, train_Loss: 0.5668489220665722, val_Loss: 0.4921959109985045
+EarlyStopping counter: 1 out of 30
+Epoch: 93, train_Loss: 0.5668489070200339, val_Loss: 0.49219585269907096
+EarlyStopping counter: 2 out of 30
+Epoch: 94, train_Loss: 0.5668489009141922, val_Loss: 0.49219585269907096
+EarlyStopping counter: 3 out of 30
+Epoch: 95, train_Loss: 0.566848913053187, val_Loss: 0.4921957880911166
+Validation loss decreased (0.492196 --> 0.492196).  Saving model ...
+Epoch: 96, train_Loss: 0.56684891392545, val_Loss: 0.4921959109985045
+EarlyStopping counter: 1 out of 30
+Epoch: 97, train_Loss: 0.5668489012776352, val_Loss: 0.4921959721258957
+EarlyStopping counter: 2 out of 30
+Epoch: 98, train_Loss: 0.5668489097822004, val_Loss: 0.4921959109985045
+EarlyStopping counter: 3 out of 30
+Epoch: 99, train_Loss: 0.5668489056389506, val_Loss: 0.4921959109985045
+EarlyStopping counter: 4 out of 30
+Epoch: 100, train_Loss: 0.5668489020045211, val_Loss: 0.49219585269907096
+EarlyStopping counter: 5 out of 30
+Epoch: 101, train_Loss: 0.5668489009141922, val_Loss: 0.49219585269907096
+EarlyStopping counter: 6 out of 30
+Epoch: 102, train_Loss: 0.5668489009141922, val_Loss: 0.4921959109985045
+EarlyStopping counter: 7 out of 30
+Epoch: 103, train_Loss: 0.5668489137800728, val_Loss: 0.4921959721258957
+EarlyStopping counter: 8 out of 30
+Epoch: 104, train_Loss: 0.5668489182867655, val_Loss: 0.49219585269907096
+EarlyStopping counter: 9 out of 30
+Epoch: 105, train_Loss: 0.5668488895020833, val_Loss: 0.49219585269907096
+EarlyStopping counter: 10 out of 30
+Epoch: 106, train_Loss: 0.5668489041851787, val_Loss: 0.4921959109985045
+EarlyStopping counter: 11 out of 30
+Epoch: 107, train_Loss: 0.5668488997511747, val_Loss: 0.4921959721258957
+EarlyStopping counter: 12 out of 30
+Epoch: 108, train_Loss: 0.5668489097095117, val_Loss: 0.49219585269907096
+EarlyStopping counter: 13 out of 30
+Epoch: 109, train_Loss: 0.5668489067292795, val_Loss: 0.49219585269907096
+EarlyStopping counter: 14 out of 30
+Epoch: 110, train_Loss: 0.566848932606418, val_Loss: 0.49219585269907096
+EarlyStopping counter: 15 out of 30
+Epoch: 111, train_Loss: 0.5668489065112137, val_Loss: 0.4921959109985045
+EarlyStopping counter: 16 out of 30
+Epoch: 112, train_Loss: 0.5668489123989896, val_Loss: 0.4921957880911166
+Validation loss decreased (0.492196 --> 0.492196).  Saving model ...
+Epoch: 113, train_Loss: 0.5668489118174809, val_Loss: 0.49219585269907096
+EarlyStopping counter: 1 out of 30
+Epoch: 114, train_Loss: 0.5668489143615816, val_Loss: 0.4921959109985045
+EarlyStopping counter: 2 out of 30
+Epoch: 115, train_Loss: 0.5668489120355467, val_Loss: 0.49219585269907096
+EarlyStopping counter: 3 out of 30
+Epoch: 116, train_Loss: 0.5668489033129157, val_Loss: 0.4921959109985045
+EarlyStopping counter: 4 out of 30
+Epoch: 117, train_Loss: 0.5668489069473452, val_Loss: 0.4921959721258957
+EarlyStopping counter: 5 out of 30
+Epoch: 118, train_Loss: 0.5668488999692405, val_Loss: 0.49219585269907096
+EarlyStopping counter: 6 out of 30
+Epoch: 119, train_Loss: 0.5668489058570164, val_Loss: 0.4921959109985045
+EarlyStopping counter: 7 out of 30
+Epoch: 120, train_Loss: 0.5668489134893184, val_Loss: 0.4921959109985045
+EarlyStopping counter: 8 out of 30
+Epoch: 121, train_Loss: 0.5668488919008069, val_Loss: 0.4921959109985045
+EarlyStopping counter: 9 out of 30
+Epoch: 122, train_Loss: 0.5668489020772096, val_Loss: 0.49219585269907096
+EarlyStopping counter: 10 out of 30
+Epoch: 123, train_Loss: 0.5668488998238633, val_Loss: 0.49219585269907096
+EarlyStopping counter: 11 out of 30
+Epoch: 124, train_Loss: 0.5668489006961265, val_Loss: 0.4921959109985045
+EarlyStopping counter: 12 out of 30
+Epoch: 125, train_Loss: 0.5668489078196084, val_Loss: 0.4921957256585142
+Validation loss decreased (0.492196 --> 0.492196).  Saving model ...
+Epoch: 126, train_Loss: 0.5668489005507492, val_Loss: 0.49219585269907096
+EarlyStopping counter: 1 out of 30
+Epoch: 127, train_Loss: 0.5668489092006916, val_Loss: 0.4921959109985045
+EarlyStopping counter: 2 out of 30
+Epoch: 128, train_Loss: 0.566848913053187, val_Loss: 0.49219585269907096
+EarlyStopping counter: 3 out of 30
+Epoch: 129, train_Loss: 0.5668489297715629, val_Loss: 0.49219585269907096
+EarlyStopping counter: 4 out of 30
+Epoch: 130, train_Loss: 0.5668489212669977, val_Loss: 0.4921957880911166
+EarlyStopping counter: 5 out of 30
+Epoch: 131, train_Loss: 0.5668489322429751, val_Loss: 0.4921957880911166
+EarlyStopping counter: 6 out of 30
+Epoch: 132, train_Loss: 0.5668489113813493, val_Loss: 0.4921959109985045
+EarlyStopping counter: 7 out of 30
+Epoch: 133, train_Loss: 0.5668489156699762, val_Loss: 0.4921959109985045
+EarlyStopping counter: 8 out of 30
+Epoch: 134, train_Loss: 0.5668489131258755, val_Loss: 0.49219585269907096
+EarlyStopping counter: 9 out of 30
+Epoch: 135, train_Loss: 0.5668488997511747, val_Loss: 0.49219585269907096
+EarlyStopping counter: 10 out of 30
+Epoch: 136, train_Loss: 0.5668489104363976, val_Loss: 0.4921959109985045
+EarlyStopping counter: 11 out of 30
+Epoch: 137, train_Loss: 0.566848887248737, val_Loss: 0.49219585269907096
+EarlyStopping counter: 12 out of 30
+Epoch: 138, train_Loss: 0.5668489006961265, val_Loss: 0.49219585269907096
+EarlyStopping counter: 13 out of 30
+Epoch: 139, train_Loss: 0.5668488976432056, val_Loss: 0.4921959109985045
+EarlyStopping counter: 14 out of 30
+Epoch: 140, train_Loss: 0.5668488868126055, val_Loss: 0.4921957880911166
+EarlyStopping counter: 15 out of 30
+Epoch: 141, train_Loss: 0.5668489019318325, val_Loss: 0.4921959109985045
+EarlyStopping counter: 16 out of 30
+Epoch: 142, train_Loss: 0.5668489062204594, val_Loss: 0.49219585269907096
+EarlyStopping counter: 17 out of 30
+Epoch: 143, train_Loss: 0.566848906293148, val_Loss: 0.49219585269907096
+EarlyStopping counter: 18 out of 30
+Epoch: 144, train_Loss: 0.5668489146523359, val_Loss: 0.49219585269907096
+EarlyStopping counter: 19 out of 30
+Epoch: 145, train_Loss: 0.5668489068019681, val_Loss: 0.49219585269907096
+EarlyStopping counter: 20 out of 30
+Epoch: 146, train_Loss: 0.5668489062204594, val_Loss: 0.49219585269907096
+EarlyStopping counter: 21 out of 30
+Epoch: 147, train_Loss: 0.5668489153065333, val_Loss: 0.49219585269907096
+EarlyStopping counter: 22 out of 30
+Epoch: 148, train_Loss: 0.5668489066565909, val_Loss: 0.4921959109985045
+EarlyStopping counter: 23 out of 30
+Epoch: 149, train_Loss: 0.5668489022952754, val_Loss: 0.4921959109985045
+EarlyStopping counter: 24 out of 30
+Epoch: 150, train_Loss: 0.5668489020045211, val_Loss: 0.49219585269907096
+EarlyStopping counter: 25 out of 30
+Epoch: 151, train_Loss: 0.5668489109452178, val_Loss: 0.49219585269907096
+EarlyStopping counter: 26 out of 30
+Epoch: 152, train_Loss: 0.5668489092733802, val_Loss: 0.4921959109985045
+EarlyStopping counter: 27 out of 30
+Epoch: 153, train_Loss: 0.5668489041851787, val_Loss: 0.49219585269907096
+EarlyStopping counter: 28 out of 30
+Epoch: 154, train_Loss: 0.5668488980793371, val_Loss: 0.4921959109985045
+EarlyStopping counter: 29 out of 30
+Epoch: 155, train_Loss: 0.5668489092733802, val_Loss: 0.49219585269907096
+EarlyStopping counter: 30 out of 30
+Epoch: 156, train_Loss: 0.5668489118174809, val_Loss: 0.4921957880911166
+EarlyStopping counter: 31 out of 30
+Epoch: 157, train_Loss: 0.5668489209762434, val_Loss: 0.49219585269907096
+EarlyStopping counter: 32 out of 30
+Epoch: 158, train_Loss: 0.5668488947356619, val_Loss: 0.49219585269907096
+EarlyStopping counter: 33 out of 30
+Epoch: 159, train_Loss: 0.5668489135620071, val_Loss: 0.4921957880911166
+EarlyStopping counter: 34 out of 30
+Epoch: 160, train_Loss: 0.566848913053187, val_Loss: 0.4921959109985045
+EarlyStopping counter: 35 out of 30
+Epoch: 161, train_Loss: 0.5668489001873063, val_Loss: 0.4921957880911166
+EarlyStopping counter: 36 out of 30
+Epoch: 162, train_Loss: 0.5668488981520258, val_Loss: 0.4921959109985045
+EarlyStopping counter: 37 out of 30
+Epoch: 163, train_Loss: 0.5668489114540379, val_Loss: 0.4921959721258957
+EarlyStopping counter: 38 out of 30
+Epoch: 164, train_Loss: 0.5668489097095117, val_Loss: 0.49219585269907096
+EarlyStopping counter: 39 out of 30
+Epoch: 165, train_Loss: 0.5668489049120647, val_Loss: 0.49219585269907096
+EarlyStopping counter: 40 out of 30
+Epoch: 166, train_Loss: 0.5668489112359721, val_Loss: 0.49219585269907096
+EarlyStopping counter: 41 out of 30
+Epoch: 167, train_Loss: 0.5668488956806136, val_Loss: 0.4921957880911166
+EarlyStopping counter: 42 out of 30
+Epoch: 168, train_Loss: 0.5668489095641346, val_Loss: 0.4921959109985045
+EarlyStopping counter: 43 out of 30
+Epoch: 169, train_Loss: 0.5668489241745414, val_Loss: 0.4921959109985045
+EarlyStopping counter: 44 out of 30
+Epoch: 170, train_Loss: 0.5668489028040956, val_Loss: 0.49219585269907096
+EarlyStopping counter: 45 out of 30
+Epoch: 171, train_Loss: 0.5668489153065333, val_Loss: 0.4921959109985045
+EarlyStopping counter: 46 out of 30
+Epoch: 172, train_Loss: 0.5668488932818901, val_Loss: 0.4921957880911166
+EarlyStopping counter: 47 out of 30
+Epoch: 173, train_Loss: 0.5668488988789117, val_Loss: 0.4921957880911166
+EarlyStopping counter: 48 out of 30
+Epoch: 174, train_Loss: 0.5668489265732649, val_Loss: 0.4921959109985045
+EarlyStopping counter: 49 out of 30
+Epoch: 175, train_Loss: 0.5668489012049466, val_Loss: 0.49219585269907096
+EarlyStopping counter: 50 out of 30
+Epoch: 176, train_Loss: 0.5668489196678487, val_Loss: 0.4921959109985045
+EarlyStopping counter: 51 out of 30
+Epoch: 177, train_Loss: 0.5668489146523359, val_Loss: 0.4921959109985045
+EarlyStopping counter: 52 out of 30
+Epoch: 178, train_Loss: 0.5668489087645601, val_Loss: 0.49219585269907096
+EarlyStopping counter: 53 out of 30
+Epoch: 179, train_Loss: 0.5668489118901695, val_Loss: 0.4921959109985045
+EarlyStopping counter: 54 out of 30
+Epoch: 180, train_Loss: 0.5668489054208848, val_Loss: 0.4921959721258957
+EarlyStopping counter: 55 out of 30
+Epoch: 181, train_Loss: 0.5668488946629734, val_Loss: 0.4921959109985045
+EarlyStopping counter: 56 out of 30
+Epoch: 182, train_Loss: 0.5668489161787964, val_Loss: 0.4921959109985045
+EarlyStopping counter: 57 out of 30
+Epoch: 183, train_Loss: 0.5668489087645601, val_Loss: 0.4921959109985045
+EarlyStopping counter: 58 out of 30
+Epoch: 184, train_Loss: 0.5668489060750822, val_Loss: 0.4921957880911166
+EarlyStopping counter: 59 out of 30
+Epoch: 185, train_Loss: 0.5668489080376742, val_Loss: 0.49219585269907096
+EarlyStopping counter: 60 out of 30
+Epoch: 186, train_Loss: 0.5668489297715629, val_Loss: 0.49219585269907096
+EarlyStopping counter: 61 out of 30
+Epoch: 187, train_Loss: 0.5668489273728394, val_Loss: 0.4921957880911166
+EarlyStopping counter: 62 out of 30
+Epoch: 188, train_Loss: 0.5668488903743465, val_Loss: 0.49219585269907096
+EarlyStopping counter: 63 out of 30
+Epoch: 189, train_Loss: 0.5668489147977132, val_Loss: 0.4921959109985045
+EarlyStopping counter: 64 out of 30
+Epoch: 190, train_Loss: 0.5668489076015426, val_Loss: 0.49219585269907096
+EarlyStopping counter: 65 out of 30
+Epoch: 191, train_Loss: 0.5668488938633989, val_Loss: 0.4921959109985045
+EarlyStopping counter: 66 out of 30
+Epoch: 192, train_Loss: 0.5668489047666875, val_Loss: 0.49219585269907096
+EarlyStopping counter: 67 out of 30
+Epoch: 193, train_Loss: 0.5668489108725292, val_Loss: 0.4921957880911166
+EarlyStopping counter: 68 out of 30
+Epoch: 194, train_Loss: 0.5668488969163197, val_Loss: 0.49219585269907096
+EarlyStopping counter: 69 out of 30
+Epoch: 195, train_Loss: 0.5668489193770944, val_Loss: 0.4921957880911166
+EarlyStopping counter: 70 out of 30
+Epoch: 196, train_Loss: 0.5668488969890083, val_Loss: 0.49219585269907096
+EarlyStopping counter: 71 out of 30
+Epoch: 197, train_Loss: 0.5668489113086608, val_Loss: 0.4921959109985045
+EarlyStopping counter: 72 out of 30
+Epoch: 198, train_Loss: 0.566848902731407, val_Loss: 0.4921959109985045
+EarlyStopping counter: 73 out of 30
+Epoch: 199, train_Loss: 0.5668489259190675, val_Loss: 0.4921959109985045
+EarlyStopping counter: 74 out of 30
+Epoch: 200, train_Loss: 0.5668488958986794, val_Loss: 0.49219585269907096
+EarlyStopping counter: 75 out of 30
+Epoch: 201, train_Loss: 0.5668489148704017, val_Loss: 0.4921959109985045
+EarlyStopping counter: 76 out of 30
+Epoch: 202, train_Loss: 0.5668489017864553, val_Loss: 0.49219585269907096
+EarlyStopping counter: 77 out of 30
+Epoch: 203, train_Loss: 0.5668489012049466, val_Loss: 0.4921959109985045
+EarlyStopping counter: 78 out of 30
+Epoch: 204, train_Loss: 0.5668489201039802, val_Loss: 0.4921959109985045
+EarlyStopping counter: 79 out of 30
+Epoch: 205, train_Loss: 0.5668488871760484, val_Loss: 0.49219585269907096
+EarlyStopping counter: 80 out of 30
+Epoch: 206, train_Loss: 0.5668488942268418, val_Loss: 0.49219585269907096
+EarlyStopping counter: 81 out of 30
+Epoch: 207, train_Loss: 0.5668489137800728, val_Loss: 0.49219585269907096
+EarlyStopping counter: 82 out of 30
+Epoch: 208, train_Loss: 0.5668488957533022, val_Loss: 0.4921957880911166
+EarlyStopping counter: 83 out of 30
+Epoch: 209, train_Loss: 0.5668489217031293, val_Loss: 0.49219585269907096
+EarlyStopping counter: 84 out of 30
+Epoch: 210, train_Loss: 0.5668489265005763, val_Loss: 0.4921959109985045
+EarlyStopping counter: 85 out of 30
+Epoch: 211, train_Loss: 0.56684891392545, val_Loss: 0.4921957880911166
+EarlyStopping counter: 86 out of 30
+Epoch: 212, train_Loss: 0.5668489184321427, val_Loss: 0.49219585269907096
+EarlyStopping counter: 87 out of 30
+Epoch: 213, train_Loss: 0.5668489089099372, val_Loss: 0.4921959109985045
+EarlyStopping counter: 88 out of 30
+Epoch: 214, train_Loss: 0.5668488950264163, val_Loss: 0.49219585269907096
+EarlyStopping counter: 89 out of 30
+Epoch: 215, train_Loss: 0.5668489009141922, val_Loss: 0.4921959109985045
+EarlyStopping counter: 90 out of 30
+Epoch: 216, train_Loss: 0.5668489093460688, val_Loss: 0.49219585269907096
+EarlyStopping counter: 91 out of 30
+Epoch: 217, train_Loss: 0.5668489118174809, val_Loss: 0.4921957880911166
+EarlyStopping counter: 92 out of 30
+Epoch: 218, train_Loss: 0.5668488953898593, val_Loss: 0.49219585269907096
+EarlyStopping counter: 93 out of 30
+Epoch: 219, train_Loss: 0.5668489108725292, val_Loss: 0.49219585269907096
+EarlyStopping counter: 94 out of 30
+Epoch: 220, train_Loss: 0.5668489038944244, val_Loss: 0.4921957880911166
+EarlyStopping counter: 95 out of 30
+Epoch: 221, train_Loss: 0.5668489012776352, val_Loss: 0.4921957880911166
+EarlyStopping counter: 96 out of 30
+Epoch: 222, train_Loss: 0.5668489249014272, val_Loss: 0.4921959109985045
+EarlyStopping counter: 97 out of 30
+Epoch: 223, train_Loss: 0.5668489106544634, val_Loss: 0.49219585269907096
+EarlyStopping counter: 98 out of 30
+Epoch: 224, train_Loss: 0.5668489160334191, val_Loss: 0.4921959109985045
+EarlyStopping counter: 99 out of 30
+Epoch: 225, train_Loss: 0.5668489116721037, val_Loss: 0.4921959721258957
+EarlyStopping counter: 100 out of 30
+Epoch: 226, train_Loss: 0.5668489065112137, val_Loss: 0.49219585269907096
+EarlyStopping counter: 101 out of 30
+Epoch: 227, train_Loss: 0.5668489025860298, val_Loss: 0.49219585269907096
+EarlyStopping counter: 102 out of 30
+Epoch: 228, train_Loss: 0.5668489235203441, val_Loss: 0.4921959721258957
+EarlyStopping counter: 103 out of 30
+Epoch: 229, train_Loss: 0.566848910000266, val_Loss: 0.4921959109985045
+EarlyStopping counter: 104 out of 30
+Epoch: 230, train_Loss: 0.5668488929184472, val_Loss: 0.4921959109985045
+EarlyStopping counter: 105 out of 30
+Epoch: 231, train_Loss: 0.5668488982974029, val_Loss: 0.4921959109985045
+EarlyStopping counter: 106 out of 30
+Epoch: 232, train_Loss: 0.5668489086918714, val_Loss: 0.4921959109985045
+EarlyStopping counter: 107 out of 30
+Epoch: 233, train_Loss: 0.5668488879029344, val_Loss: 0.4921959109985045
+EarlyStopping counter: 108 out of 30
+Epoch: 234, train_Loss: 0.5668489061477707, val_Loss: 0.49219585269907096
+EarlyStopping counter: 109 out of 30
+Epoch: 235, train_Loss: 0.5668489102910205, val_Loss: 0.4921957880911166
+EarlyStopping counter: 110 out of 30
+Epoch: 236, train_Loss: 0.5668488835416189, val_Loss: 0.4921957880911166
+EarlyStopping counter: 111 out of 30
+Epoch: 237, train_Loss: 0.5668489115994151, val_Loss: 0.49219585269907096
+EarlyStopping counter: 112 out of 30
+Epoch: 238, train_Loss: 0.5668489016410782, val_Loss: 0.49219585269907096
+EarlyStopping counter: 113 out of 30
+Epoch: 239, train_Loss: 0.5668489020045211, val_Loss: 0.49219585269907096
+EarlyStopping counter: 114 out of 30
+Epoch: 240, train_Loss: 0.5668489209762434, val_Loss: 0.49219585269907096
+EarlyStopping counter: 115 out of 30
+Epoch: 241, train_Loss: 0.5668488939360874, val_Loss: 0.4921959109985045
+EarlyStopping counter: 116 out of 30
+Epoch: 242, train_Loss: 0.5668489003326834, val_Loss: 0.4921957880911166
+EarlyStopping counter: 117 out of 30
+Epoch: 243, train_Loss: 0.5668489196678487, val_Loss: 0.4921959109985045
+EarlyStopping counter: 118 out of 30
+Epoch: 244, train_Loss: 0.5668489021498982, val_Loss: 0.4921959109985045
+EarlyStopping counter: 119 out of 30
+Epoch: 245, train_Loss: 0.5668489045486218, val_Loss: 0.49219585269907096
+EarlyStopping counter: 120 out of 30
+Epoch: 246, train_Loss: 0.5668489044032445, val_Loss: 0.4921959109985045
+EarlyStopping counter: 121 out of 30
+Epoch: 247, train_Loss: 0.5668489062204594, val_Loss: 0.4921957880911166
+EarlyStopping counter: 122 out of 30
+Epoch: 248, train_Loss: 0.566848920685489, val_Loss: 0.49219585269907096
+EarlyStopping counter: 123 out of 30
+Epoch: 249, train_Loss: 0.566848904693999, val_Loss: 0.4921959109985045
+EarlyStopping counter: 124 out of 30
+Epoch: 250, train_Loss: 0.5668489084011171, val_Loss: 0.4921959109985045
+EarlyStopping counter: 125 out of 30
+Epoch: 251, train_Loss: 0.5668489180686997, val_Loss: 0.4921959109985045
+EarlyStopping counter: 126 out of 30
+Epoch: 252, train_Loss: 0.5668489025133412, val_Loss: 0.49219585269907096
+EarlyStopping counter: 127 out of 30
+Epoch: 253, train_Loss: 0.5668489222119494, val_Loss: 0.4921959109985045
+EarlyStopping counter: 128 out of 30
+Epoch: 254, train_Loss: 0.5668488924823156, val_Loss: 0.4921957880911166
+EarlyStopping counter: 129 out of 30
+Epoch: 255, train_Loss: 0.5668489121809238, val_Loss: 0.4921957880911166
+EarlyStopping counter: 130 out of 30
+Epoch: 256, train_Loss: 0.5668489083284285, val_Loss: 0.49219585269907096
+EarlyStopping counter: 131 out of 30
+Epoch: 257, train_Loss: 0.5668489020772096, val_Loss: 0.49219585269907096
+EarlyStopping counter: 132 out of 30
+Epoch: 258, train_Loss: 0.566848902731407, val_Loss: 0.49219585269907096
+EarlyStopping counter: 133 out of 30
+Epoch: 259, train_Loss: 0.5668489204674232, val_Loss: 0.49219585269907096
+EarlyStopping counter: 134 out of 30
+Epoch: 260, train_Loss: 0.5668489131985641, val_Loss: 0.49219585269907096
+EarlyStopping counter: 135 out of 30
+Epoch: 261, train_Loss: 0.5668489101456433, val_Loss: 0.4921957880911166
+EarlyStopping counter: 136 out of 30
+Epoch: 262, train_Loss: 0.5668488984427801, val_Loss: 0.4921959109985045
+EarlyStopping counter: 137 out of 30
+Epoch: 263, train_Loss: 0.566848909491446, val_Loss: 0.4921959109985045
+EarlyStopping counter: 138 out of 30
+Epoch: 264, train_Loss: 0.5668489076742311, val_Loss: 0.49219585269907096
+EarlyStopping counter: 139 out of 30
+Epoch: 265, train_Loss: 0.5668488966982539, val_Loss: 0.4921957880911166
+EarlyStopping counter: 140 out of 30
+Epoch: 266, train_Loss: 0.5668489086191829, val_Loss: 0.4921959109985045
+EarlyStopping counter: 141 out of 30
+Epoch: 267, train_Loss: 0.566848927445528, val_Loss: 0.4921959109985045
+EarlyStopping counter: 142 out of 30
+Epoch: 268, train_Loss: 0.56684889793396, val_Loss: 0.4921957880911166
+EarlyStopping counter: 143 out of 30
+Epoch: 269, train_Loss: 0.5668488998238633, val_Loss: 0.4921957880911166
+EarlyStopping counter: 144 out of 30
+Epoch: 270, train_Loss: 0.5668488976432056, val_Loss: 0.4921957880911166
+EarlyStopping counter: 145 out of 30
+Epoch: 271, train_Loss: 0.5668489003326834, val_Loss: 0.4921957880911166
+EarlyStopping counter: 146 out of 30
+Epoch: 272, train_Loss: 0.5668489139981386, val_Loss: 0.49219585269907096
+EarlyStopping counter: 147 out of 30
+Epoch: 273, train_Loss: 0.5668489163968621, val_Loss: 0.49219585269907096
+EarlyStopping counter: 148 out of 30
+Epoch: 274, train_Loss: 0.5668488982974029, val_Loss: 0.49219585269907096
+EarlyStopping counter: 149 out of 30
+Epoch: 275, train_Loss: 0.5668489161061078, val_Loss: 0.4921959109985045
+EarlyStopping counter: 150 out of 30
+Epoch: 276, train_Loss: 0.566848915888042, val_Loss: 0.4921959109985045
+EarlyStopping counter: 151 out of 30
+Epoch: 277, train_Loss: 0.5668489041851787, val_Loss: 0.4921959109985045
+EarlyStopping counter: 152 out of 30
+Epoch: 278, train_Loss: 0.5668489137073842, val_Loss: 0.4921959109985045
+EarlyStopping counter: 153 out of 30
+Epoch: 279, train_Loss: 0.5668489039671131, val_Loss: 0.49219585269907096
+EarlyStopping counter: 154 out of 30
+Epoch: 280, train_Loss: 0.5668489131985641, val_Loss: 0.4921959109985045
+EarlyStopping counter: 155 out of 30
+Epoch: 281, train_Loss: 0.5668489107998406, val_Loss: 0.4921959109985045
+EarlyStopping counter: 156 out of 30
+Epoch: 282, train_Loss: 0.5668489236657213, val_Loss: 0.49219585269907096
+EarlyStopping counter: 157 out of 30
+Epoch: 283, train_Loss: 0.5668489038217358, val_Loss: 0.49219585269907096
+EarlyStopping counter: 158 out of 30
+Epoch: 284, train_Loss: 0.5668489269367079, val_Loss: 0.4921959721258957
+EarlyStopping counter: 159 out of 30
+Epoch: 285, train_Loss: 0.5668489214123749, val_Loss: 0.49219585269907096
+EarlyStopping counter: 160 out of 30
+Epoch: 286, train_Loss: 0.5668488939360874, val_Loss: 0.4921959109985045
+EarlyStopping counter: 161 out of 30
+Epoch: 287, train_Loss: 0.5668488906651008, val_Loss: 0.49219585269907096
+EarlyStopping counter: 162 out of 30
+Epoch: 288, train_Loss: 0.5668489051301305, val_Loss: 0.4921959109985045
+EarlyStopping counter: 163 out of 30
+Epoch: 289, train_Loss: 0.5668488955352364, val_Loss: 0.4921959721258957
+EarlyStopping counter: 164 out of 30
+Epoch: 290, train_Loss: 0.566848910000266, val_Loss: 0.4921959109985045
+EarlyStopping counter: 165 out of 30
+Epoch: 291, train_Loss: 0.5668488947356619, val_Loss: 0.4921959109985045
+EarlyStopping counter: 166 out of 30
+Epoch: 292, train_Loss: 0.5668489074561655, val_Loss: 0.4921959721258957
+EarlyStopping counter: 167 out of 30
+Epoch: 293, train_Loss: 0.566848886739917, val_Loss: 0.4921959109985045
+EarlyStopping counter: 168 out of 30
+Epoch: 294, train_Loss: 0.5668488983700916, val_Loss: 0.4921959721258957
+EarlyStopping counter: 169 out of 30
+Epoch: 295, train_Loss: 0.5668489038944244, val_Loss: 0.4921959721258957
+EarlyStopping counter: 170 out of 30
+Epoch: 296, train_Loss: 0.5668488902289693, val_Loss: 0.4921959109985045
+EarlyStopping counter: 171 out of 30
+Epoch: 297, train_Loss: 0.5668489022225869, val_Loss: 0.49219585269907096
+EarlyStopping counter: 172 out of 30
+Epoch: 298, train_Loss: 0.566848917487191, val_Loss: 0.49219585269907096
+EarlyStopping counter: 173 out of 30
+Epoch: 299, train_Loss: 0.5668488977158942, val_Loss: 0.4921957880911166
+EarlyStopping counter: 174 out of 30
+Epoch: 300, train_Loss: 0.5668489037490473, val_Loss: 0.4921957880911166
+EarlyStopping counter: 175 out of 30
+test_Loss: 0.642
