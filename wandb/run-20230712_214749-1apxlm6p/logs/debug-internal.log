@@ -1,0 +1,211 @@
+2023-07-12 21:47:49,747 INFO    StreamThr :885382 [internal.py:wandb_internal():88] W&B internal server running at pid: 885382, started at: 2023-07-12 21:47:49.746422
+2023-07-12 21:47:49,749 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: status
+2023-07-12 21:47:49,751 DEBUG   SenderThread:885382 [sender.py:send_request():317] send_request: status
+2023-07-12 21:47:49,753 INFO    WriterThread:885382 [datastore.py:open_for_write():75] open: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230712_214749-1apxlm6p/run-1apxlm6p.wandb
+2023-07-12 21:47:49,753 DEBUG   SenderThread:885382 [sender.py:send():303] send: header
+2023-07-12 21:47:49,754 DEBUG   SenderThread:885382 [sender.py:send():303] send: run
+2023-07-12 21:47:50,419 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: check_version
+2023-07-12 21:47:50,447 INFO    SenderThread:885382 [dir_watcher.py:__init__():216] watching files in: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230712_214749-1apxlm6p/files
+2023-07-12 21:47:50,447 INFO    SenderThread:885382 [sender.py:_start_run_threads():928] run started: 1apxlm6p with start time 1689166069.726519
+2023-07-12 21:47:50,447 DEBUG   SenderThread:885382 [sender.py:send():303] send: summary
+2023-07-12 21:47:50,447 INFO    SenderThread:885382 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-07-12 21:47:50,448 DEBUG   SenderThread:885382 [sender.py:send_request():317] send_request: check_version
+2023-07-12 21:47:50,572 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: run_start
+2023-07-12 21:47:50,581 DEBUG   HandlerThread:885382 [system_info.py:__init__():31] System info init
+2023-07-12 21:47:50,581 DEBUG   HandlerThread:885382 [system_info.py:__init__():46] System info init done
+2023-07-12 21:47:50,581 INFO    HandlerThread:885382 [system_monitor.py:start():150] Starting system monitor
+2023-07-12 21:47:50,581 INFO    SystemMonitor:885382 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-07-12 21:47:50,581 INFO    HandlerThread:885382 [system_monitor.py:probe():168] Collecting system info
+2023-07-12 21:47:50,582 INFO    SystemMonitor:885382 [interfaces.py:start():168] Started cpu
+2023-07-12 21:47:50,582 INFO    SystemMonitor:885382 [interfaces.py:start():168] Started disk
+2023-07-12 21:47:50,583 INFO    SystemMonitor:885382 [interfaces.py:start():168] Started gpu
+2023-07-12 21:47:50,583 INFO    SystemMonitor:885382 [interfaces.py:start():168] Started memory
+2023-07-12 21:47:50,583 INFO    SystemMonitor:885382 [interfaces.py:start():168] Started network
+2023-07-12 21:47:50,649 DEBUG   HandlerThread:885382 [system_info.py:probe():195] Probing system
+2023-07-12 21:47:50,651 DEBUG   HandlerThread:885382 [system_info.py:_probe_git():180] Probing git
+2023-07-12 21:47:50,655 DEBUG   HandlerThread:885382 [system_info.py:_probe_git():188] Probing git done
+2023-07-12 21:47:50,655 DEBUG   HandlerThread:885382 [system_info.py:probe():241] Probing system done
+2023-07-12 21:47:50,655 DEBUG   HandlerThread:885382 [system_monitor.py:probe():177] {'os': 'Linux-5.15.0-75-generic-x86_64-with-glibc2.35', 'python': '3.10.6', 'heartbeatAt': '2023-07-12T12:47:50.649197', 'startedAt': '2023-07-12T12:47:49.700413', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/ishiken4869/LSTM_regression.git', 'commit': '0e0537d8d824365fe83806cd7e99e654591a244b'}, 'email': 'ishiken4869@gmail.com', 'root': '/home/ishii/graduation_research/LSTM_regression', 'host': 'shrike', 'username': 'ishii', 'executable': '/home/ishii/mambaforge/envs/pytorch/bin/python', 'cpu_count': 128, 'cpu_count_logical': 256, 'cpu_freq': {'current': 1543.49724609375, 'min': 1500.0, 'max': 2000.0}, 'cpu_freq_per_core': [{'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 3607.873, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 2000.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1500.0, 'min': 1500.0, 'max': 2000.0}], 'disk': {'total': 1720.1097412109375, 'used': 81.0362548828125}, 'gpu': 'NVIDIA GeForce RTX 3090', 'gpu_count': 4, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}], 'memory': {'total': 1007.682014465332}}
+2023-07-12 21:47:50,655 INFO    HandlerThread:885382 [system_monitor.py:probe():178] Finished collecting system info
+2023-07-12 21:47:50,655 INFO    HandlerThread:885382 [system_monitor.py:probe():181] Publishing system info
+2023-07-12 21:47:50,655 DEBUG   HandlerThread:885382 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-07-12 21:47:50,656 DEBUG   HandlerThread:885382 [system_info.py:_save_pip():67] Saving pip packages done
+2023-07-12 21:47:50,656 DEBUG   HandlerThread:885382 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-07-12 21:47:51,449 INFO    Thread-13 :885382 [dir_watcher.py:_on_file_created():275] file/dir created: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230712_214749-1apxlm6p/files/conda-environment.yaml
+2023-07-12 21:47:51,450 INFO    Thread-13 :885382 [dir_watcher.py:_on_file_created():275] file/dir created: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230712_214749-1apxlm6p/files/wandb-summary.json
+2023-07-12 21:47:51,450 INFO    Thread-13 :885382 [dir_watcher.py:_on_file_created():275] file/dir created: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230712_214749-1apxlm6p/files/requirements.txt
+2023-07-12 21:47:55,448 INFO    Thread-13 :885382 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230712_214749-1apxlm6p/files/conda-environment.yaml
+2023-07-12 21:47:55,516 DEBUG   HandlerThread:885382 [system_info.py:_save_conda():86] Saving conda packages done
+2023-07-12 21:47:55,518 INFO    HandlerThread:885382 [system_monitor.py:probe():183] Finished publishing system info
+2023-07-12 21:47:55,780 DEBUG   SenderThread:885382 [sender.py:send():303] send: files
+2023-07-12 21:47:55,780 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: stop_status
+2023-07-12 21:47:55,780 INFO    SenderThread:885382 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-07-12 21:47:55,781 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: pause
+2023-07-12 21:47:55,781 INFO    HandlerThread:885382 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-07-12 21:47:55,781 INFO    HandlerThread:885382 [system_monitor.py:finish():160] Stopping system monitor
+2023-07-12 21:47:55,782 DEBUG   SenderThread:885382 [sender.py:send_request():317] send_request: stop_status
+2023-07-12 21:47:55,785 DEBUG   SystemMonitor:885382 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-07-12 21:47:55,787 INFO    HandlerThread:885382 [interfaces.py:finish():173] Joined cpu
+2023-07-12 21:47:55,787 INFO    HandlerThread:885382 [interfaces.py:finish():173] Joined disk
+2023-07-12 21:47:55,787 DEBUG   SystemMonitor:885382 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-07-12 21:47:55,788 DEBUG   SystemMonitor:885382 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-07-12 21:47:56,119 DEBUG   SenderThread:885382 [sender.py:send():303] send: telemetry
+2023-07-12 21:47:56,318 INFO    HandlerThread:885382 [interfaces.py:finish():173] Joined gpu
+2023-07-12 21:47:56,318 INFO    HandlerThread:885382 [interfaces.py:finish():173] Joined memory
+2023-07-12 21:47:56,318 INFO    HandlerThread:885382 [interfaces.py:finish():173] Joined network
+2023-07-12 21:47:56,321 DEBUG   SenderThread:885382 [sender.py:send():303] send: stats
+2023-07-12 21:47:56,449 INFO    Thread-13 :885382 [dir_watcher.py:_on_file_created():275] file/dir created: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230712_214749-1apxlm6p/files/wandb-metadata.json
+2023-07-12 21:47:56,449 INFO    Thread-13 :885382 [dir_watcher.py:_on_file_created():275] file/dir created: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230712_214749-1apxlm6p/files/output.log
+2023-07-12 21:47:56,665 INFO    Thread-16 :885382 [upload_job.py:push():143] Uploaded file /tmp/tmp1ica0di_wandb/29ve9lsj-wandb-metadata.json
+2023-07-12 21:47:57,079 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: resume
+2023-07-12 21:47:57,079 INFO    HandlerThread:885382 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-07-12 21:47:57,089 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: pause
+2023-07-12 21:47:57,089 INFO    HandlerThread:885382 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-07-12 21:47:58,449 INFO    Thread-13 :885382 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230712_214749-1apxlm6p/files/output.log
+2023-07-12 21:48:11,122 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: stop_status
+2023-07-12 21:48:11,122 DEBUG   SenderThread:885382 [sender.py:send_request():317] send_request: stop_status
+2023-07-12 21:48:11,370 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: resume
+2023-07-12 21:48:11,370 INFO    HandlerThread:885382 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-07-12 21:48:11,375 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: pause
+2023-07-12 21:48:11,375 INFO    HandlerThread:885382 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-07-12 21:48:15,174 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: resume
+2023-07-12 21:48:15,174 INFO    HandlerThread:885382 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-07-12 21:48:15,215 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: pause
+2023-07-12 21:48:15,215 INFO    HandlerThread:885382 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-07-12 21:48:17,458 INFO    Thread-13 :885382 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230712_214749-1apxlm6p/files/output.log
+2023-07-12 21:48:17,832 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: resume
+2023-07-12 21:48:17,832 INFO    HandlerThread:885382 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-07-12 21:48:19,339 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: pause
+2023-07-12 21:48:19,339 INFO    HandlerThread:885382 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-07-12 21:48:20,377 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: resume
+2023-07-12 21:48:20,377 INFO    HandlerThread:885382 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-07-12 21:48:20,513 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: pause
+2023-07-12 21:48:20,513 INFO    HandlerThread:885382 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-07-12 21:48:21,459 INFO    Thread-13 :885382 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230712_214749-1apxlm6p/files/output.log
+2023-07-12 21:48:21,460 INFO    Thread-13 :885382 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230712_214749-1apxlm6p/files/config.yaml
+2023-07-12 21:48:26,391 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: stop_status
+2023-07-12 21:48:26,391 DEBUG   SenderThread:885382 [sender.py:send_request():317] send_request: stop_status
+2023-07-12 21:48:29,525 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: resume
+2023-07-12 21:48:29,525 INFO    HandlerThread:885382 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-07-12 21:48:29,528 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: pause
+2023-07-12 21:48:29,529 INFO    HandlerThread:885382 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-07-12 21:48:31,463 INFO    Thread-13 :885382 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230712_214749-1apxlm6p/files/output.log
+2023-07-12 21:48:34,275 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: resume
+2023-07-12 21:48:34,275 INFO    HandlerThread:885382 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-07-12 21:48:37,995 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: pause
+2023-07-12 21:48:37,995 INFO    HandlerThread:885382 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-07-12 21:48:41,683 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: stop_status
+2023-07-12 21:48:41,684 DEBUG   SenderThread:885382 [sender.py:send_request():317] send_request: stop_status
+2023-07-12 21:48:57,011 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: stop_status
+2023-07-12 21:48:57,012 DEBUG   SenderThread:885382 [sender.py:send_request():317] send_request: stop_status
+2023-07-12 21:49:12,258 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: stop_status
+2023-07-12 21:49:12,258 DEBUG   SenderThread:885382 [sender.py:send_request():317] send_request: stop_status
+2023-07-12 21:49:17,114 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: resume
+2023-07-12 21:49:17,114 INFO    HandlerThread:885382 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-07-12 21:49:17,115 DEBUG   SenderThread:885382 [sender.py:send():303] send: telemetry
+2023-07-12 21:49:17,115 DEBUG   SenderThread:885382 [sender.py:send():303] send: exit
+2023-07-12 21:49:17,115 INFO    SenderThread:885382 [sender.py:send_exit():442] handling exit code: 0
+2023-07-12 21:49:17,116 INFO    SenderThread:885382 [sender.py:send_exit():444] handling runtime: 11
+2023-07-12 21:49:17,118 INFO    SenderThread:885382 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-07-12 21:49:17,118 INFO    SenderThread:885382 [sender.py:send_exit():450] send defer
+2023-07-12 21:49:17,119 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: defer
+2023-07-12 21:49:17,119 INFO    HandlerThread:885382 [handler.py:handle_request_defer():162] handle defer: 0
+2023-07-12 21:49:17,119 DEBUG   SenderThread:885382 [sender.py:send_request():317] send_request: defer
+2023-07-12 21:49:17,119 INFO    SenderThread:885382 [sender.py:send_request_defer():459] handle sender defer: 0
+2023-07-12 21:49:17,119 INFO    SenderThread:885382 [sender.py:transition_state():463] send defer: 1
+2023-07-12 21:49:17,120 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: defer
+2023-07-12 21:49:17,120 INFO    HandlerThread:885382 [handler.py:handle_request_defer():162] handle defer: 1
+2023-07-12 21:49:17,120 DEBUG   SenderThread:885382 [sender.py:send_request():317] send_request: defer
+2023-07-12 21:49:17,120 INFO    SenderThread:885382 [sender.py:send_request_defer():459] handle sender defer: 1
+2023-07-12 21:49:17,120 INFO    SenderThread:885382 [sender.py:transition_state():463] send defer: 2
+2023-07-12 21:49:17,121 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: defer
+2023-07-12 21:49:17,121 INFO    HandlerThread:885382 [handler.py:handle_request_defer():162] handle defer: 2
+2023-07-12 21:49:17,121 DEBUG   SenderThread:885382 [sender.py:send_request():317] send_request: defer
+2023-07-12 21:49:17,121 INFO    SenderThread:885382 [sender.py:send_request_defer():459] handle sender defer: 2
+2023-07-12 21:49:17,121 INFO    SenderThread:885382 [sender.py:transition_state():463] send defer: 3
+2023-07-12 21:49:17,121 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: defer
+2023-07-12 21:49:17,122 INFO    HandlerThread:885382 [handler.py:handle_request_defer():162] handle defer: 3
+2023-07-12 21:49:17,122 DEBUG   SenderThread:885382 [sender.py:send_request():317] send_request: defer
+2023-07-12 21:49:17,122 INFO    SenderThread:885382 [sender.py:send_request_defer():459] handle sender defer: 3
+2023-07-12 21:49:17,122 INFO    SenderThread:885382 [sender.py:transition_state():463] send defer: 4
+2023-07-12 21:49:17,122 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: defer
+2023-07-12 21:49:17,122 INFO    HandlerThread:885382 [handler.py:handle_request_defer():162] handle defer: 4
+2023-07-12 21:49:17,123 DEBUG   SenderThread:885382 [sender.py:send():303] send: summary
+2023-07-12 21:49:17,123 INFO    SenderThread:885382 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-07-12 21:49:17,123 DEBUG   SenderThread:885382 [sender.py:send_request():317] send_request: defer
+2023-07-12 21:49:17,124 INFO    SenderThread:885382 [sender.py:send_request_defer():459] handle sender defer: 4
+2023-07-12 21:49:17,124 INFO    SenderThread:885382 [sender.py:transition_state():463] send defer: 5
+2023-07-12 21:49:17,124 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: defer
+2023-07-12 21:49:17,124 INFO    HandlerThread:885382 [handler.py:handle_request_defer():162] handle defer: 5
+2023-07-12 21:49:17,124 DEBUG   SenderThread:885382 [sender.py:send_request():317] send_request: defer
+2023-07-12 21:49:17,124 INFO    SenderThread:885382 [sender.py:send_request_defer():459] handle sender defer: 5
+2023-07-12 21:49:17,414 INFO    SenderThread:885382 [sender.py:transition_state():463] send defer: 6
+2023-07-12 21:49:17,415 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: defer
+2023-07-12 21:49:17,415 INFO    HandlerThread:885382 [handler.py:handle_request_defer():162] handle defer: 6
+2023-07-12 21:49:17,415 DEBUG   SenderThread:885382 [sender.py:send_request():317] send_request: defer
+2023-07-12 21:49:17,415 INFO    SenderThread:885382 [sender.py:send_request_defer():459] handle sender defer: 6
+2023-07-12 21:49:17,483 INFO    Thread-13 :885382 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230712_214749-1apxlm6p/files/config.yaml
+2023-07-12 21:49:17,483 INFO    Thread-13 :885382 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230712_214749-1apxlm6p/files/wandb-summary.json
+2023-07-12 21:49:18,116 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: poll_exit
+2023-07-12 21:49:19,292 INFO    SenderThread:885382 [sender.py:transition_state():463] send defer: 7
+2023-07-12 21:49:19,292 DEBUG   SenderThread:885382 [sender.py:send_request():317] send_request: poll_exit
+2023-07-12 21:49:19,293 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: defer
+2023-07-12 21:49:19,294 INFO    HandlerThread:885382 [handler.py:handle_request_defer():162] handle defer: 7
+2023-07-12 21:49:19,294 DEBUG   SenderThread:885382 [sender.py:send_request():317] send_request: defer
+2023-07-12 21:49:19,294 INFO    SenderThread:885382 [sender.py:send_request_defer():459] handle sender defer: 7
+2023-07-12 21:49:19,294 INFO    SenderThread:885382 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-07-12 21:49:19,484 INFO    Thread-13 :885382 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230712_214749-1apxlm6p/files/output.log
+2023-07-12 21:49:19,485 INFO    SenderThread:885382 [dir_watcher.py:finish():392] scan: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230712_214749-1apxlm6p/files
+2023-07-12 21:49:19,485 INFO    SenderThread:885382 [dir_watcher.py:finish():406] scan save: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230712_214749-1apxlm6p/files/output.log output.log
+2023-07-12 21:49:19,485 INFO    SenderThread:885382 [dir_watcher.py:finish():406] scan save: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230712_214749-1apxlm6p/files/wandb-metadata.json wandb-metadata.json
+2023-07-12 21:49:19,485 INFO    SenderThread:885382 [dir_watcher.py:finish():406] scan save: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230712_214749-1apxlm6p/files/config.yaml config.yaml
+2023-07-12 21:49:19,485 INFO    SenderThread:885382 [dir_watcher.py:finish():406] scan save: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230712_214749-1apxlm6p/files/requirements.txt requirements.txt
+2023-07-12 21:49:19,490 INFO    SenderThread:885382 [dir_watcher.py:finish():406] scan save: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230712_214749-1apxlm6p/files/conda-environment.yaml conda-environment.yaml
+2023-07-12 21:49:19,490 INFO    SenderThread:885382 [dir_watcher.py:finish():406] scan save: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230712_214749-1apxlm6p/files/wandb-summary.json wandb-summary.json
+2023-07-12 21:49:19,490 INFO    SenderThread:885382 [sender.py:transition_state():463] send defer: 8
+2023-07-12 21:49:19,494 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: defer
+2023-07-12 21:49:19,494 INFO    HandlerThread:885382 [handler.py:handle_request_defer():162] handle defer: 8
+2023-07-12 21:49:19,494 DEBUG   SenderThread:885382 [sender.py:send_request():317] send_request: defer
+2023-07-12 21:49:19,495 INFO    SenderThread:885382 [sender.py:send_request_defer():459] handle sender defer: 8
+2023-07-12 21:49:19,496 INFO    SenderThread:885382 [file_pusher.py:finish():168] shutting down file pusher
+2023-07-12 21:49:20,089 INFO    Thread-17 :885382 [upload_job.py:push():143] Uploaded file /home/ishii/graduation_research/LSTM_regression/wandb/run-20230712_214749-1apxlm6p/files/output.log
+2023-07-12 21:49:20,105 INFO    Thread-18 :885382 [upload_job.py:push():143] Uploaded file /home/ishii/graduation_research/LSTM_regression/wandb/run-20230712_214749-1apxlm6p/files/config.yaml
+2023-07-12 21:49:20,119 INFO    Thread-19 :885382 [upload_job.py:push():143] Uploaded file /home/ishii/graduation_research/LSTM_regression/wandb/run-20230712_214749-1apxlm6p/files/requirements.txt
+2023-07-12 21:49:20,148 INFO    Thread-21 :885382 [upload_job.py:push():143] Uploaded file /home/ishii/graduation_research/LSTM_regression/wandb/run-20230712_214749-1apxlm6p/files/wandb-summary.json
+2023-07-12 21:49:20,160 INFO    Thread-20 :885382 [upload_job.py:push():143] Uploaded file /home/ishii/graduation_research/LSTM_regression/wandb/run-20230712_214749-1apxlm6p/files/conda-environment.yaml
+2023-07-12 21:49:20,360 INFO    Thread-12 (_thread_body):885382 [sender.py:transition_state():463] send defer: 9
+2023-07-12 21:49:20,361 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: defer
+2023-07-12 21:49:20,361 INFO    HandlerThread:885382 [handler.py:handle_request_defer():162] handle defer: 9
+2023-07-12 21:49:20,361 DEBUG   SenderThread:885382 [sender.py:send_request():317] send_request: defer
+2023-07-12 21:49:20,361 INFO    SenderThread:885382 [sender.py:send_request_defer():459] handle sender defer: 9
+2023-07-12 21:49:20,361 INFO    SenderThread:885382 [file_pusher.py:join():173] waiting for file pusher
+2023-07-12 21:49:20,362 INFO    SenderThread:885382 [sender.py:transition_state():463] send defer: 10
+2023-07-12 21:49:20,362 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: defer
+2023-07-12 21:49:20,362 INFO    HandlerThread:885382 [handler.py:handle_request_defer():162] handle defer: 10
+2023-07-12 21:49:20,362 DEBUG   SenderThread:885382 [sender.py:send_request():317] send_request: defer
+2023-07-12 21:49:20,362 INFO    SenderThread:885382 [sender.py:send_request_defer():459] handle sender defer: 10
+2023-07-12 21:49:21,443 INFO    SenderThread:885382 [sender.py:transition_state():463] send defer: 11
+2023-07-12 21:49:21,444 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: defer
+2023-07-12 21:49:21,444 INFO    HandlerThread:885382 [handler.py:handle_request_defer():162] handle defer: 11
+2023-07-12 21:49:21,444 DEBUG   SenderThread:885382 [sender.py:send_request():317] send_request: defer
+2023-07-12 21:49:21,444 INFO    SenderThread:885382 [sender.py:send_request_defer():459] handle sender defer: 11
+2023-07-12 21:49:21,444 INFO    SenderThread:885382 [sender.py:transition_state():463] send defer: 12
+2023-07-12 21:49:21,445 DEBUG   SenderThread:885382 [sender.py:send():303] send: final
+2023-07-12 21:49:21,445 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: defer
+2023-07-12 21:49:21,445 DEBUG   SenderThread:885382 [sender.py:send():303] send: footer
+2023-07-12 21:49:21,445 INFO    HandlerThread:885382 [handler.py:handle_request_defer():162] handle defer: 12
+2023-07-12 21:49:21,446 DEBUG   SenderThread:885382 [sender.py:send_request():317] send_request: defer
+2023-07-12 21:49:21,446 INFO    SenderThread:885382 [sender.py:send_request_defer():459] handle sender defer: 12
+2023-07-12 21:49:21,448 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: poll_exit
+2023-07-12 21:49:21,448 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: server_info
+2023-07-12 21:49:21,448 DEBUG   SenderThread:885382 [sender.py:send_request():317] send_request: poll_exit
+2023-07-12 21:49:21,448 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: get_summary
+2023-07-12 21:49:21,449 DEBUG   SenderThread:885382 [sender.py:send_request():317] send_request: server_info
+2023-07-12 21:49:21,449 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: sampled_history
+2023-07-12 21:49:22,070 DEBUG   HandlerThread:885382 [handler.py:handle_request():139] handle_request: shutdown
+2023-07-12 21:49:22,070 INFO    HandlerThread:885382 [handler.py:finish():814] shutting down handler
+2023-07-12 21:49:22,445 INFO    WriterThread:885382 [datastore.py:close():279] close: /home/ishii/graduation_research/LSTM_regression/wandb/run-20230712_214749-1apxlm6p/run-1apxlm6p.wandb
+2023-07-12 21:49:23,069 INFO    SenderThread:885382 [sender.py:finish():1331] shutting down sender
+2023-07-12 21:49:23,069 INFO    SenderThread:885382 [file_pusher.py:finish():168] shutting down file pusher
+2023-07-12 21:49:23,069 INFO    SenderThread:885382 [file_pusher.py:join():173] waiting for file pusher
+2023-07-12 21:58:13,231 INFO    MainThread:885382 [internal.py:handle_exit():78] Internal process exited
